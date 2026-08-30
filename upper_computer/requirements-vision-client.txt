@@ -1,0 +1,2 @@
+# Client-side dependency only. The RealSense/YOLO server remains on the vision computer.
+websockets>=11,<16

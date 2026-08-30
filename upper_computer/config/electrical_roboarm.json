@@ -1,0 +1,108 @@
+{
+  "source": {
+    "firmware": "vendor/roboarm_reference",
+    "reviewed_on": "2026-08-26",
+    "teammate_confirmation_on": "2026-08-26",
+    "hardware_confirmation_required": true,
+    "confirmed_by_teammate": "CAN IDs, bus routing, 1M CAN, 3.3V TTL, 115200 UART, no reduction-ratio conversion, directional joint endpoints",
+    "from_firmware_pending_reconfirmation": "motor models and master IDs; screenshots directly show J1/J2/J4/J5 master IDs",
+    "evidence_images": [
+      "vendor/electrical_reference/motor_j1_can_tool.png",
+      "vendor/electrical_reference/motor_j2_driver_params.png",
+      "vendor/electrical_reference/motor_j4_can_tool.png",
+      "vendor/electrical_reference/motor_j5_can_tool.png"
+    ]
+  },
+  "safety": {
+    "write_control_allowed": false,
+    "reason": "USART command is not connected to seven-motor execution and full telemetry/watchdog/estop are missing",
+    "limit_reference": "all clockwise/counterclockwise observations are viewed while facing the motor output shaft",
+    "reduction_ratio_handling": "ignored per electrical teammate; joint command conversion must not apply a reduction ratio"
+  },
+  "usart10": {
+    "enabled": false,
+    "read_only": true,
+    "port": null,
+    "baudrate": 115200,
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": 1,
+    "flow_control": "none",
+    "electrical_standard": "3.3V TTL UART",
+    "logic_voltage_v": 3.3,
+    "little_endian": true,
+    "frame_size": 24,
+    "command_header_ascii": "VG",
+    "command_tail_ascii": "NE",
+    "telemetry_header_ascii": "GV",
+    "telemetry_tail_ascii": "EN",
+    "telemetry_period_ms": 10,
+    "telemetry_motor": "J1 only",
+    "usb_uart_adapter": null,
+    "connector_pinout": null,
+    "host_port_probe": {
+      "checked_on": "2026-08-26",
+      "query_methods": ["Windows SERIALCOMM registry", "pyserial list_ports"],
+      "selected_port": null,
+      "usb_uart_detected": false,
+      "detected_ports": [
+        {"port": "COM3", "type": "Bluetooth virtual serial", "safe_for_robot": false},
+        {"port": "COM4", "type": "Bluetooth virtual serial", "safe_for_robot": false},
+        {"port": "COM5", "type": "Bluetooth virtual serial", "safe_for_robot": false},
+        {"port": "COM6", "type": "Bluetooth virtual serial", "safe_for_robot": false}
+      ],
+      "conclusion": "No USB-UART adapter is currently connected; rescan after connecting the 3.3V TTL adapter"
+    }
+  },
+  "can_network": {
+    "frame_format": "classic",
+    "can_fd": false,
+    "nominal_bitrate_bps": 1000000,
+    "auto_retransmission": false,
+    "controller_scope": "STM32 internal FDCAN peripherals, not PC SocketCAN names",
+    "routing": {
+      "FDCAN3": ["J1", "J2"],
+      "FDCAN1": ["J3", "J4"],
+      "FDCAN2": ["J5", "J6", "J7"]
+    }
+  },
+  "motors": [
+    {"joint":"J1","model":"DM-8009P","can_bus":"FDCAN3","can_id":"0x01","master_id":"0x11","clockwise_limit_rad":-3.0,"counterclockwise_limit_rad":2.5,"relative_limit_rad":[-3.0,2.5]},
+    {"joint":"J2","model":"DM-8009P","can_bus":"FDCAN3","can_id":"0x02","master_id":"0x12","clockwise_limit_rad":0.2,"counterclockwise_limit_rad":-3.0,"relative_limit_rad":[-3.0,0.2]},
+    {"joint":"J3","model":"DM-4340P","can_bus":"FDCAN1","can_id":"0x03","master_id":"0x13","clockwise_limit_rad":-1.5,"counterclockwise_limit_rad":1.5,"relative_limit_rad":[-1.5,1.5]},
+    {"joint":"J4","model":"DM-4040","can_bus":"FDCAN1","can_id":"0x04","master_id":"0x14","clockwise_limit_rad":2.3,"counterclockwise_limit_rad":0.0,"relative_limit_rad":[0.0,2.3]},
+    {"joint":"J5","model":"DM-4310","can_bus":"FDCAN2","can_id":"0x05","master_id":"0x15","clockwise_limit_rad":1.5,"counterclockwise_limit_rad":-1.5,"relative_limit_rad":[-1.5,1.5]},
+    {"joint":"J6","model":"DM-4310","can_bus":"FDCAN2","can_id":"0x06","master_id":"0x16","clockwise_limit_rad":-0.25,"counterclockwise_limit_rad":0.8,"relative_limit_rad":[-0.25,0.8]},
+    {"joint":"J7","model":"DM-4310","can_bus":"FDCAN2","can_id":"0x07","master_id":"0x17","clockwise_limit_rad":-1.5,"counterclockwise_limit_rad":1.5,"relative_limit_rad":[-1.5,1.5]}
+  ],
+  "screenshot_observations": {
+    "J1": {"displayed_can_id":"1","displayed_master_id":"11","p_range":[-12.5,12.5],"v_range":[-45,45],"t_range":[-54,54]},
+    "J2": {"displayed_can_id":"0x2","displayed_master_id":"0x12","displayed_can_baud":"1M","displayed_reduction_ratio":9,"reduction_ratio_used_by_upper_computer":false},
+    "J4": {"displayed_can_id":"4","displayed_master_id":"14","p_range":[-12.5,12.5],"v_range":[-10,10],"t_range":[-28,28]},
+    "J5": {"displayed_can_id":"5","displayed_master_id":"15","p_range":[-12.5,12.5],"v_range":[-30,30],"t_range":[-10,10]},
+    "note": "Displayed P/V/T ranges are motor-tool ranges, not approved robot joint safety limits"
+  },
+  "firmware_constants": {
+    "motor_position_offset_rad": 12.5,
+    "command_period_ms": 10,
+    "test_velocity_rad_s": 0.5,
+    "smooth_velocity_rad_s": 4.0,
+    "target_tolerance_rad": 0.05,
+    "legacy_p_max": 12.5,
+    "legacy_v_max": 10.0,
+    "legacy_t_max": 28.0,
+    "legacy_range_note": "firmware constants are not valid as one common limit set for all motor models"
+  },
+  "missing_before_live_write": [
+    "Exact USB-UART adapter model and current COM port after connection",
+    "TX/RX/GND connector pinout and common-ground confirmation",
+    "Robot-coordinate positive direction and zero offset for each joint",
+    "State command semantics and joint selector/addressing",
+    "Command units and accepted ranges",
+    "Command-to-motor application in firmware",
+    "Per-joint approved velocity, torque and current limits",
+    "CRC/sequence/watchdog",
+    "Hardware emergency-stop behavior",
+    "Complete seven-joint telemetry"
+  ]
+}

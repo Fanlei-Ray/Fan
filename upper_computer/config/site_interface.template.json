@@ -1,0 +1,42 @@
+{
+  "vision": {
+    "image_transport": null,
+    "image_endpoint": null,
+    "detection_transport": null,
+    "detection_endpoint": null,
+    "message_type": null,
+    "camera_frame": null,
+    "base_frame": "base_link",
+    "camera_info_file": null,
+    "camera_to_base_file": null,
+    "minimum_confidence": null
+  },
+  "ros2": {
+    "distro": null,
+    "domain_id": null,
+    "robot_ip": null,
+    "upper_computer_ip": null,
+    "joint_states_topic": "/joint_states",
+    "task_command_topic": null,
+    "task_status_topic": null,
+    "left_trajectory_action": null,
+    "right_trajectory_action": null,
+    "left_gripper_action": null,
+    "right_gripper_action": null
+  },
+  "electrical": {
+    "hardware_version": null,
+    "can_adapter": null,
+    "can_interface": "STM32 FDCAN1/FDCAN2/FDCAN3",
+    "can_fd": false,
+    "nominal_bitrate": 1000000,
+    "data_bitrate": null,
+    "motor_mapping_file": "electrical_roboarm.json",
+    "joint_limits_file": "electrical_roboarm.json",
+    "serial_electrical_standard": "3.3V TTL UART",
+    "serial_baudrate": 115200,
+    "serial_port": null,
+    "hardware_estop_input": null,
+    "watchdog_timeout_ms": null
+  }
+}

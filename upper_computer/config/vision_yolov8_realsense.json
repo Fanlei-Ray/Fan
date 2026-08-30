@@ -1,0 +1,71 @@
+{
+  "source": {
+    "archive_sha256": "BC3A48112E4A334731CA7DF484B36E9085D905DA203E39AD96F520E9A5B9DECE",
+    "script": "vendor/yolov8_reference/realsense_yolo_csv.py",
+    "weights": "vendor/yolov8_reference/yolov8n.pt",
+    "weights_sha256": "F59B3D833E2FF32E194B5BB8E08D211DC7C5BDF144B90D2C8412C47CCFC83B36",
+    "provenance_verified": false
+  },
+  "runtime_reported_by_vision_team": {
+    "python": "3.8.10",
+    "ultralytics": "8.4.31",
+    "pytorch": "2.4.1+cu121",
+    "opencv": null,
+    "pyrealsense2": null,
+    "websockets": null,
+    "environment_export_received": false
+  },
+  "camera": {
+    "family": "Intel RealSense",
+    "model": "D435i planned/reported; physical device not yet verified",
+    "serial_number": null,
+    "color": {"width": 640, "height": 480, "fps": 30, "format": "bgr8"},
+    "depth": {"width": 640, "height": 480, "fps": 30, "format": "z16"},
+    "depth_aligned_to_color": true,
+    "intrinsics_file": null,
+    "camera_frame": "camera_color_optical_frame proposed",
+    "axis_convention": "X right, Y down, Z forward",
+    "camera_to_base_file": null
+  },
+  "detector": {
+    "engine": "ultralytics YOLOv8",
+    "weights_name": "yolov8n.pt",
+    "intended_targets": ["cup", "bottle"],
+    "current_code_detects_all_coco_classes": true,
+    "confidence_threshold": 0.5,
+    "nms_iou_threshold": null,
+    "device": null
+  },
+  "network": {
+    "live_enabled": false,
+    "vision_server_url": null,
+    "legacy_server_bind": "0.0.0.0:8091",
+    "legacy_outgoing_url": "ws://172.16.25.178:9080/ws/vision",
+    "authentication": null,
+    "tls": false,
+    "proposed_server_role": "vision computer",
+    "ack_proposed": true,
+    "heartbeat_proposed": true,
+    "reconnect_proposed": true,
+    "implemented_in_received_code": {
+      "websocket_server": true,
+      "ack_for_outgoing_client": true,
+      "heartbeat": false,
+      "persistent_reconnect": false,
+      "bounded_send_queue": false
+    }
+  },
+  "blocking_items": [
+    "camera intrinsics",
+    "camera model and serial number",
+    "3D deprojection from pixel plus depth",
+    "camera frame to base_link extrinsic calibration",
+    "timestamp and frame_id",
+    "bbox and confidence in websocket payload",
+    "multiple-detection array and stable detection id",
+    "depth invalid-value filtering",
+    "weights provenance and dependency versions",
+    "recorded validation sample",
+    "agreed host IP and port"
+  ]
+}

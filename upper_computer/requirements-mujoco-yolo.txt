@@ -1,0 +1,3 @@
+# Simulation-side multi-object perception. Install into upper_computer/.venv.
+ultralytics==8.3.31
+opencv-python>=4.6

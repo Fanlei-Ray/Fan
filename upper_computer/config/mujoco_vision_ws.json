@@ -1,0 +1,71 @@
+{
+  "app": {
+    "title": "OpenArm MuJoCo 视觉与上位机联调",
+    "dry_run": false,
+    "runtime_dir": "../runtime"
+  },
+  "transport": {
+    "mode": "mujoco_vision_ws",
+    "websocket_url": "ws://127.0.0.1:8765",
+    "reconnect_min_sec": 0.5,
+    "reconnect_max_sec": 5.0,
+    "max_message_bytes": 4000000,
+    "queue_size": 3,
+    "replay_file": "../samples/detections.jsonl",
+    "interval_ms": 1500,
+    "loop": true
+  },
+  "vision": {
+    "status": "MuJoCo YOLOv8-first multi-object detection with explicit RGB fallback",
+    "interface_config": "mujoco_vision_ws.json",
+    "live_enabled": true,
+    "websocket_url": "ws://127.0.0.1:8765",
+    "expected_frame": "base_link",
+    "minimum_confidence": 0.70,
+    "maximum_age_sec": 2.0,
+    "allowed_classes": ["orange_cube", "blue_part", "phone", "mouse"],
+    "source_width": 640,
+    "source_height": 480
+  },
+  "simulation": {
+    "scene": "../v2/demo_multi_object.xml",
+    "vision_backend": "auto",
+    "yolo_weights": "vendor/yolov8_reference/yolov8n.pt",
+    "yolo_confidence": 0.35,
+    "preferred_arm": "right",
+    "strict_inactive_arm_park": true,
+    "minimum_interarm_tcp_distance_m": 0.24,
+    "safe_pick_workspace": {
+      "x_m": [0.42, 0.66],
+      "y_m": [-0.12, 0.20]
+    }
+  },
+  "workspace": {
+    "x_m": [0.20, 0.75],
+    "y_m": [-0.45, 0.45],
+    "z_m": [0.75, 1.45]
+  },
+  "ros2": {
+    "status": "not used by MuJoCo perception/HMI integration stage",
+    "detection_topic": "/openarm/vision/detections",
+    "task_topic": "/openarm/task_command",
+    "task_status_topic": "/openarm/task_status",
+    "joint_states_topic": "/joint_states",
+    "left_trajectory_action": "/left_joint_trajectory_controller/follow_joint_trajectory",
+    "right_trajectory_action": "/right_joint_trajectory_controller/follow_joint_trajectory"
+  },
+  "electrical": {
+    "status": "disabled: simulation only",
+    "interface_config": "electrical_roboarm.json",
+    "serial_enabled": false,
+    "serial_read_only": true,
+    "serial_port": null,
+    "serial_baudrate": 115200,
+    "can_interface": "can0",
+    "can_fd": false,
+    "nominal_bitrate": null,
+    "data_bitrate": null,
+    "motor_mapping_file": "electrical_roboarm.json",
+    "hardware_estop_topic": null
+  }
+}

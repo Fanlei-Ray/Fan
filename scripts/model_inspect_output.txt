@@ -1,0 +1,58 @@
+XML_PATH = E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\v2\demo.xml
+nbody=24, njnt=20, nsite=2, nu=17
+
+========== LEFT ACTUATORS ==========
+00  actuator=lifter_ctrl                     joint=openarm_lifter_joint            ctrlrange=[0.0000, 0.3000]
+01  actuator=left_joint1_ctrl                joint=openarm_left_joint1             ctrlrange=[-3.4907, 1.3963]
+02  actuator=left_joint2_ctrl                joint=openarm_left_joint2             ctrlrange=[-3.3161, 0.1745]
+03  actuator=left_joint3_ctrl                joint=openarm_left_joint3             ctrlrange=[-1.5708, 1.5708]
+04  actuator=left_joint4_ctrl                joint=openarm_left_joint4             ctrlrange=[0.0000, 2.4435]
+05  actuator=left_joint5_ctrl                joint=openarm_left_joint5             ctrlrange=[-1.5708, 1.5708]
+06  actuator=left_joint6_ctrl                joint=openarm_left_joint6             ctrlrange=[-0.7854, 0.7854]
+07  actuator=left_joint7_ctrl                joint=openarm_left_joint7             ctrlrange=[-1.5708, 1.5708]
+08  actuator=left_finger1_ctrl               joint=openarm_left_finger_joint1      ctrlrange=[0.0000, 0.7854]
+
+========== LEFT JOINTS ==========
+00  joint=openarm_lifter_joint                 type=2  qpos_addr=00  axis=[0. 0. 1.]  range=[0.0000, 0.3000]
+01  joint=openarm_left_joint1                  type=3  qpos_addr=01  axis=[0. 1. 0.]  range=[-3.4907, 1.3963]
+02  joint=openarm_left_joint2                  type=3  qpos_addr=02  axis=[-1.  0.  0.]  range=[-3.3161, 0.1745]
+03  joint=openarm_left_joint3                  type=3  qpos_addr=03  axis=[ 0.  0. -1.]  range=[-1.5708, 1.5708]
+04  joint=openarm_left_joint4                  type=3  qpos_addr=04  axis=[ 0. -1.  0.]  range=[0.0000, 2.4435]
+05  joint=openarm_left_joint5                  type=3  qpos_addr=05  axis=[ 0.  0. -1.]  range=[-1.5708, 1.5708]
+06  joint=openarm_left_joint6                  type=3  qpos_addr=06  axis=[ 0. -1.  0.]  range=[-0.7854, 0.7854]
+07  joint=openarm_left_joint7                  type=3  qpos_addr=07  axis=[1. 0. 0.]  range=[-1.5708, 1.5708]
+08  joint=openarm_left_finger_joint1           type=3  qpos_addr=08  axis=[-1.  0.  0.]  range=[0.0000, 0.7854]
+09  joint=openarm_left_finger_joint2           type=3  qpos_addr=09  axis=[1. 0. 0.]  range=[0.0000, 0.7854]
+
+========== CANDIDATE SITES ==========
+00  site=left_ee_control_point                world_pos=[0.401      0.1535     1.11999993]
+
+========== CANDIDATE BODIES ==========
+002  body=openarm_left_base_link                    parent=openarm_lifter_link                  world_pos=[0.185 0.031 1.34 ]
+003  body=openarm_left_link1                        parent=openarm_left_base_link               world_pos=[0.185  0.0935 1.34  ]
+004  body=openarm_left_link2                        parent=openarm_left_link1                   world_pos=[0.185  0.1535 1.34  ]
+005  body=openarm_left_link3                        parent=openarm_left_link2                   world_pos=[0.185   0.1535  1.27375]
+006  body=openarm_left_link4                        parent=openarm_left_link3                   world_pos=[0.185  0.1535 1.12  ]
+007  body=openarm_left_link5                        parent=openarm_left_link4                   world_pos=[0.2805     0.1535     1.11999997]
+008  body=openarm_left_link6                        parent=openarm_left_link5                   world_pos=[0.401      0.1535     1.11999993]
+009  body=openarm_left_ee_base_link                 parent=openarm_left_link6                   world_pos=[0.401      0.1535     1.11999993]
+010  body=openarm_left_ee_inner_finger              parent=openarm_left_ee_base_link            world_pos=[0.469      0.1355     1.11856991]
+011  body=openarm_left_ee_outer_finger              parent=openarm_left_ee_base_link            world_pos=[0.469      0.1715     1.11856991]
+020  body=openarm_right_ee_inner_finger             parent=openarm_right_ee_base_link           world_pos=[ 0.469      -0.1355      1.11856991]
+021  body=openarm_right_ee_outer_finger             parent=openarm_right_ee_base_link           world_pos=[ 0.469      -0.1715      1.11856991]
+
+========== LEFT BODY TREE ==========
+002  openarm_left_base_link                    parent -> openarm_lifter_link
+003  openarm_left_link1                        parent -> openarm_left_base_link
+004  openarm_left_link2                        parent -> openarm_left_link1
+005  openarm_left_link3                        parent -> openarm_left_link2
+006  openarm_left_link4                        parent -> openarm_left_link3
+007  openarm_left_link5                        parent -> openarm_left_link4
+008  openarm_left_link6                        parent -> openarm_left_link5
+009  openarm_left_ee_base_link                 parent -> openarm_left_link6
+010  openarm_left_ee_inner_finger              parent -> openarm_left_ee_base_link
+011  openarm_left_ee_outer_finger              parent -> openarm_left_ee_base_link
+
+========== OBJECT POSITIONS ==========
+orange_cube          world_pos=[0.45 0.   1.05]
+black_frame          world_pos=[0.47  0.15  1.005]

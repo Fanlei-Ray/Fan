@@ -1,0 +1,2 @@
+# Optional dependency for the read-only USART10 live monitor.
+pyserial>=3.5,<4
