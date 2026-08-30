@@ -1,0 +1,244 @@
+{"kind":"deck","id":"pr/984nnv","name":"Deck"}
+{"kind":"layout","layoutId":"9a6fdc06-6079-454e-bfed-108ea3b0e5af","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"907a9c7f-bca7-4335-9da3-3d4296a0121c","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/qfuvxv","slide":1,"title":"COURSE PROJECT / 课程项目阶段汇报","textShapes":4}
+{"kind":"textbox","id":"sh/wna18be1","slide":1,"name":"cover-kicker","text":"COURSE PROJECT / 课程项目阶段汇报","textPreview":"COURSE PROJECT / 课程项目阶段汇报","textChars":25,"textLines":1,"bbox":[54,44,510,28]}
+{"kind":"textbox","id":"sh/bm1kfqxg","slide":1,"name":"cover-title","text":"OpenArm\n视觉—上位机联调","textPreview":"OpenArm | 视觉—上位机联调","textChars":16,"textLines":2,"bbox":[54,126,595,164]}
+{"kind":"textbox","id":"sh/al8j6lwv","slide":1,"name":"cover-subtitle","text":"仿真软件闭环已完成\n真机控制保持安全闭锁","textPreview":"仿真软件闭环已完成 | 真机控制保持安全闭锁","textChars":20,"textLines":2,"bbox":[58,334,510,105]}
+{"kind":"shape","id":"sh/9kzidgfa","slide":1,"name":"cover-accent","bbox":[58,481,168,8]}
+{"kind":"textbox","id":"sh/ojq14bep","slide":1,"name":"cover-footer","text":"上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析","textPreview":"上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析","textChars":31,"textLines":1,"bbox":[58,526,550,64]}
+{"kind":"shape","id":"sh/nih0b6x4","slide":1,"name":"cover-image-field","bbox":[665,36,560,632]}
+{"kind":"image","id":"im/7qt03ixw","slide":1,"name":"","alt":"OpenArm 双臂 MuJoCo 模型","bbox":[690,58,510,584]}
+{"kind":"notes","id":"nt/qfuvxv","slide":1,"text":"开场先给出阶段结论：本次负责的是上位机集成。仿真侧可以形成视觉—上位机—任务执行闭环；真机侧没有为了赶进度而绕过安全条件。\n\n[Sources]\n- media/v2.png\n- upper_computer/README.md"}
+{"kind":"slide","id":"sl/gsnaae","slide":2,"title":"OPENARM / UPPER COMPUTER","textShapes":13}
+{"kind":"textbox","id":"sh/1sbq9kv2","slide":2,"name":"kicker-2","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/epk7y5cr","slide":2,"name":"title-2","text":"我的工作：把视觉、仿真与电控统一到一个上位机入口","textPreview":"我的工作：把视觉、仿真与电控统一到一个上位机入口","textChars":24,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/fqt87adc","slide":2,"name":"rule-2","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/ov294fut","slide":2,"name":"page-2","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"textbox","id":"sh/pwvqdkve","slide":2,"name":"scope-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[54,194,70,44]}
+{"kind":"textbox","id":"sh/2tk72pcn","slide":2,"name":"scope-title-0","text":"界面与任务流程","textPreview":"界面与任务流程","textChars":7,"textLines":1,"bbox":[54,254,330,47]}
+{"kind":"textbox","id":"sh/nut8bud8","slide":2,"name":"scope-body-0","text":"目标画面与检测框\n任务确认 / 回零 / 取消\n状态机与会话日志","textPreview":"目标画面与检测框 | 任务确认 / 回零 / 取消 | 状态机与会话日志","textChars":32,"textLines":3,"bbox":[54,332,330,225]}
+{"kind":"shape","id":"sh/cjm98zu5","slide":2,"name":"scope-vline-1","bbox":[421,205,0,348]}
+{"kind":"textbox","id":"sh/xkvqh4va","slide":2,"name":"scope-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[449,194,70,44]}
+{"kind":"textbox","id":"sh/h0j6dofi","slide":2,"name":"scope-title-1","text":"三类接口适配","textPreview":"三类接口适配","textChars":6,"textLines":1,"bbox":[449,254,330,47]}
+{"kind":"textbox","id":"sh/wza54jex","slide":2,"name":"scope-body-1","text":"离线回放\nMuJoCo WebSocket\nRealSense / YOLO WebSocket\nUSART10 协议工具","textPreview":"离线回放 | MuJoCo WebSocket | RealSense / YOLO WebSocket | USART10 协议工具","textChars":61,"textLines":4,"bbox":[449,332,330,225]}
+{"kind":"shape","id":"sh/vy1obexc","slide":2,"name":"scope-vline-2","bbox":[816,205,0,348]}
+{"kind":"textbox","id":"sh/ud8n2twr","slide":2,"name":"scope-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[844,194,70,44]}
+{"kind":"textbox","id":"sh/54j6h8fe","slide":2,"name":"scope-title-2","text":"安全与可验证性","textPreview":"安全与可验证性","textChars":7,"textLines":1,"bbox":[844,254,330,47]}
+{"kind":"textbox","id":"sh/43ap83et","slide":2,"name":"scope-body-2","text":"坐标系与工作空间校验\n超时、重连、队列限流\n急停锁存与执行闭锁\n自动测试和联调文档","textPreview":"坐标系与工作空间校验 | 超时、重连、队列限流 | 急停锁存与执行闭锁 | 自动测试和联调文档","textChars":41,"textLines":4,"bbox":[844,332,330,225]}
+{"kind":"textbox","id":"sh/j21ofyxo","slide":2,"name":"scope-conclusion","text":"核心原则：UI 不直接绑定某一个视觉程序或电机协议；通过传输层切换数据源，通过安全层决定是否允许执行。","textPreview":"核心原则：UI 不直接绑定某一个视觉程序或电机协议；通过传输层切换数据源，通过安全层决定是否允许执行。","textChars":51,"textLines":1,"bbox":[54,600,1120,48]}
+{"kind":"notes","id":"nt/gsnaae","slide":2,"text":"这一页说明上位机工作不是单一界面，而是把视觉、电控、仿真和安全状态整合为可替换的模块。\n\n[Sources]\n- upper_computer/PROJECT_STRUCTURE_ZH.md\n- upper_computer/src/openarm_upper/"}
+{"kind":"slide","id":"sl/d0bf2m","slide":3,"title":"OPENARM / UPPER COMPUTER","textShapes":14}
+{"kind":"textbox","id":"sh/5gzu9sfe","slide":3,"name":"kicker-3","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/itobyxg3","slide":3,"name":"title-3","text":"当前上位机交付规模已经覆盖开发、测试与联调资料","textPreview":"当前上位机交付规模已经覆盖开发、测试与联调资料","textChars":23,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/3uhc72xo","slide":3,"name":"rule-3","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/sjqd47y5","slide":3,"name":"page-3","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"textbox","id":"sh/dkzudcfq","slide":3,"name":"metrics-context","text":"统计不含 vendor 原始资料、运行日志、.venv 与缓存；用于展示当前交付模块规模，不把同学提供的代码计入个人新增代码。","textPreview":"统计不含 vendor 原始资料、运行日志、.venv 与缓存；用于展示当前交付模块规模，不把同学提供的代码计入个人新增代码。","textChars":63,"textLines":1,"bbox":[54,174,1150,58]}
+{"kind":"shape","id":"sh/qh8v2xgz","slide":3,"name":"metric-src-panel","bbox":[54,314,356,300]}
+{"kind":"shape","id":"sh/rihcb2xk","slide":3,"name":"metric-src-accent","bbox":[76,340,56,7]}
+{"kind":"textbox","id":"sh/8n6ts3y1","slide":3,"name":"metric-src-stat","text":"18 / 1,754","textPreview":"18 / 1,754","textChars":10,"textLines":1,"bbox":[76,370,310,92]}
+{"kind":"textbox","id":"sh/tofu18zm","slide":3,"name":"metric-src-label","text":"应用源码文件 / 行","textPreview":"应用源码文件 / 行","textChars":10,"textLines":1,"bbox":[76,469,310,40]}
+{"kind":"textbox","id":"sh/twz6dwjy","slide":3,"name":"metric-src-detail","text":"GUI、消息模型、安全、状态机、日志、传输与协议","textPreview":"GUI、消息模型、安全、状态机、日志、传输与协议","textChars":24,"textLines":1,"bbox":[76,525,310,62]}
+{"kind":"shape","id":"sh/svq54b2t","slide":3,"name":"metric-test-panel","bbox":[462,314,356,300]}
+{"kind":"shape","id":"sh/7uhob618","slide":3,"name":"metric-test-accent","bbox":[484,340,56,7]}
+{"kind":"textbox","id":"sh/6t8n21kn","slide":3,"name":"metric-test-stat","text":"28","textPreview":"28","textChars":2,"textLines":1,"bbox":[484,370,310,92]}
+{"kind":"textbox","id":"sh/h0j6hgja","slide":3,"name":"metric-test-label","text":"自动测试","textPreview":"自动测试","textChars":4,"textLines":1,"bbox":[484,469,310,40]}
+{"kind":"textbox","id":"sh/gza58b2p","slide":3,"name":"metric-test-detail","text":"9 个测试文件，覆盖消息、WebSocket、安全和 USART10","textPreview":"9 个测试文件，覆盖消息、WebSocket、安全和 USART10","textChars":34,"textLines":1,"bbox":[484,525,310,62]}
+{"kind":"shape","id":"sh/fy1of614","slide":3,"name":"metric-run-panel","bbox":[870,314,356,300]}
+{"kind":"shape","id":"sh/ux8n61kj","slide":3,"name":"metric-run-accent","bbox":[892,340,56,7]}
+{"kind":"textbox","id":"sh/poj6l0j6","slide":3,"name":"metric-run-stat","text":"3 + 6 + 5","textPreview":"3 + 6 + 5","textChars":9,"textLines":1,"bbox":[892,370,310,92]}
+{"kind":"textbox","id":"sh/43apcv21","slide":3,"name":"metric-run-label","text":"模式 / 配置 / 启动入口","textPreview":"模式 / 配置 / 启动入口","textChars":14,"textLines":1,"bbox":[892,469,310,40]}
+{"kind":"textbox","id":"sh/o7ip8zqx","slide":3,"name":"metric-run-detail","text":"回放、MuJoCo、真机视觉；统一课程演示菜单已整理","textPreview":"回放、MuJoCo、真机视觉；统一课程演示菜单已整理","textChars":26,"textLines":1,"bbox":[892,525,310,62]}
+{"kind":"textbox","id":"sh/p8rqh4ri","slide":3,"name":"metrics-foot","text":"另有：3 个只读工具、5 份联调文档、2 个仿真视觉文件（1,009 行）","textPreview":"另有：3 个只读工具、5 份联调文档、2 个仿真视觉文件（1,009 行）","textChars":37,"textLines":1,"bbox":[54,646,1050,30]}
+{"kind":"notes","id":"nt/d0bf2m","slide":3,"text":"工作量用可复算的文件和行数表达。这里强调是当前上位机交付范围，不把 vendor 中电控或视觉同学的原始代码当作个人工作量。\n\n[Sources]\n- upper_computer/report/build/source-notes.txt\n- upper_computer/tests/"}
+{"kind":"slide","id":"sl/9p07jn","slide":4,"title":"OPENARM / UPPER COMPUTER","textShapes":13}
+{"kind":"textbox","id":"sh/idcnqtkr","slide":4,"name":"kicker-4","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/5gnm1oji","slide":4,"name":"title-4","text":"同一套 UI，通过传输适配器切换三种联调模式","textPreview":"同一套 UI，通过传输适配器切换三种联调模式","textChars":22,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/4fu5sj2x","slide":4,"name":"rule-4","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/val4ve10","slide":4,"name":"page-4","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"shape","id":"sh/upcnm9kv","slide":4,"name":"arch-arrow-1","bbox":[286,350,74,34]}
+{"kind":"shape","id":"sh/hc3mxoj6","slide":4,"name":"arch-arrow-2","bbox":[570,350,74,34]}
+{"kind":"shape","id":"sh/gbu5oj2l","slide":4,"name":"arch-arrow-3","bbox":[855,350,74,34]}
+{"kind":"shape","id":"sh/z65o7y1k","slide":4,"name":"arch-node-0","bbox":[54,312,232,214]}
+{"kind":"textbox","id":"sh/elwnydkz","slide":4,"name":"arch-node-title-0","text":"数据源","textPreview":"数据源","textChars":3,"textLines":1,"bbox":[76,337,188,42]}
+{"kind":"textbox","id":"sh/onatofy5","slide":4,"name":"arch-node-body-0","text":"回放 JSONL\nMuJoCo RGB\nRealSense / YOLO","textPreview":"回放 JSONL | MuJoCo RGB | RealSense / YOLO","textChars":36,"textLines":3,"bbox":[76,404,188,98]}
+{"kind":"shape","id":"sh/pojahkzq","slide":4,"name":"arch-node-1","bbox":[360,312,210,214]}
+{"kind":"textbox","id":"sh/2lsbmpgz","slide":4,"name":"arch-node-title-1","text":"传输适配","textPreview":"传输适配","textChars":4,"textLines":1,"bbox":[382,337,166,42]}
+{"kind":"textbox","id":"sh/3m1sfahk","slide":4,"name":"arch-node-body-1","text":"DetectionBatch\nTaskStatus\n有界队列 / 重连","textPreview":"DetectionBatch | TaskStatus | 有界队列 / 重连","textChars":35,"textLines":3,"bbox":[382,404,166,98]}
+{"kind":"shape","id":"sh/gja9kfy9","slide":4,"name":"arch-node-2","bbox":[644,312,211,214]}
+{"kind":"textbox","id":"sh/1kjadkze","slide":4,"name":"arch-node-title-2","text":"上位机核心","textPreview":"上位机核心","textChars":5,"textLines":1,"bbox":[666,337,167,42]}
+{"kind":"textbox","id":"sh/eh8ri503","slide":4,"name":"arch-node-body-2","text":"画面与目标\n安全校验\n任务状态机 / 日志","textPreview":"画面与目标 | 安全校验 | 任务状态机 / 日志","textChars":21,"textLines":3,"bbox":[666,404,167,98]}
+{"kind":"shape","id":"sh/fihsbaho","slide":4,"name":"arch-node-3","bbox":[929,312,297,214]}
+{"kind":"textbox","id":"sh/sfq9gvix","slide":4,"name":"arch-node-title-3","text":"执行边界","textPreview":"执行边界","textChars":4,"textLines":1,"bbox":[951,337,253,42]}
+{"kind":"textbox","id":"sh/tgza90zi","slide":4,"name":"arch-node-body-3","text":"MuJoCo：允许仿真执行\n真机视觉：只观察\nUSART10：只读","textPreview":"MuJoCo：允许仿真执行 | 真机视觉：只观察 | USART10：只读","textChars":33,"textLines":3,"bbox":[951,404,253,98]}
+{"kind":"textbox","id":"sh/tcrqdwr6","slide":4,"name":"arch-claim","text":"上位机不把“看见目标”直接等同于“允许运动”","textPreview":"上位机不把“看见目标”直接等同于“允许运动”","textChars":22,"textLines":1,"bbox":[54,190,900,52]}
+{"kind":"textbox","id":"sh/8bipkral","slide":4,"name":"arch-subclaim","text":"执行权限由坐标、时效、工作空间、接口完备度和运行模式共同决定。","textPreview":"执行权限由坐标、时效、工作空间、接口完备度和运行模式共同决定。","textChars":31,"textLines":1,"bbox":[54,246,1040,36]}
+{"kind":"notes","id":"nt/9p07jn","slide":4,"text":"重点讲右侧的执行边界：相同界面并不意味着相同权限。仿真模式能够执行，真机模式在证据不完整时必须被锁住。\n\n[Sources]\n- upper_computer/src/openarm_upper/transports/\n- upper_computer/src/openarm_upper/safety.py\n- upper_computer/config/"}
+{"kind":"slide","id":"sl/7jz1dt","slide":5,"title":"LIVE DEMO / MUJOCO FIRST","textShapes":12}
+{"kind":"textbox","id":"sh/6t8vipk3","slide":5,"name":"kicker-5","text":"LIVE DEMO / MUJOCO FIRST","textPreview":"LIVE DEMO / MUJOCO FIRST","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/tgzut43e","slide":5,"name":"title-5","text":"演示一：仿真上位机展示完整的视觉—任务闭环","textPreview":"演示一：仿真上位机展示完整的视觉—任务闭环","textChars":21,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/8fqdkz2t","slide":5,"name":"rule-5","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/jqxcnalc","slide":5,"name":"page-5","text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"textbox","id":"sh/ypobepkr","slide":5,"name":"sim-order-title","text":"启动顺序","textPreview":"启动顺序","textChars":4,"textLines":1,"bbox":[54,184,235,40]}
+{"kind":"textbox","id":"sh/lszupk3i","slide":5,"name":"sim-order","text":"① 运行 MuJoCo 视觉桥\n② 运行仿真上位机\n③ 识别橙色方块\n④ 确认执行抓取放置","textPreview":"① 运行 MuJoCo 视觉桥 | ② 运行仿真上位机 | ③ 识别橙色方块 | ④ 确认执行抓取放置","textChars":45,"textLines":4,"bbox":[54,242,465,190]}
+{"kind":"textbox","id":"sh/kr6tgf2x","slide":5,"name":"sim-bullets-dot-0","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,469,24,32]}
+{"kind":"textbox","id":"sh/bmxcjalg","slide":5,"name":"sim-bullets-text-0","text":"640×480 虚拟相机，5 FPS 持续中间帧","textPreview":"640×480 虚拟相机，5 FPS 持续中间帧","textChars":24,"textLines":1,"bbox":[84,470,490,38]}
+{"kind":"textbox","id":"sh/aloba54v","slide":5,"name":"sim-bullets-dot-1","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,515,24,32]}
+{"kind":"textbox","id":"sh/87a5o7a9","slide":5,"name":"sim-bullets-text-1","text":"检测框、置信度与 base_link 坐标","textPreview":"检测框、置信度与 base_link 坐标","textChars":21,"textLines":1,"bbox":[84,516,490,38]}
+{"kind":"textbox","id":"sh/9836xcru","slide":5,"name":"sim-bullets-dot-2","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,561,24,32]}
+{"kind":"textbox","id":"sh/m5snmxsj","slide":5,"name":"sim-bullets-text-2","text":"PLANNING / EXECUTING / SUCCEEDED 状态回传","textPreview":"PLANNING / EXECUTING / SUCCEEDED 状态回传","textChars":37,"textLines":1,"bbox":[84,562,490,38]}
+{"kind":"shape","id":"sh/761ov29o","slide":5,"name":"sim-image-frame","bbox":[606,180,620,450]}
+{"kind":"textbox","id":"sh/l4j6tsry","slide":5,"name":"sim-caption","text":"画面来自 MuJoCo RGB 渲染，不用物体 body 坐标冒充视觉结果","textPreview":"画面来自 MuJoCo RGB 渲染，不用物体 body 坐标冒充视觉结果","textChars":37,"textLines":1,"bbox":[606,640,620,30]}
+{"kind":"image","id":"im/361wfulo","slide":5,"name":"","alt":"MuJoCo 俯视相机橙色方块检测结果","bbox":[621,196,590,416]}
+{"kind":"notes","id":"nt/7jz1dt","slide":5,"text":"现场先运行 run_mujoco_vision_bridge.bat，再运行 run_mujoco_upper_computer.bat。点击确认后不要只看 Viewer，也要指出上位机相机画面在运动过程中持续更新。\n\n[Sources]\n- outputs/bimanual_task_planner_demo/vision_debug_v18/vision_right_001_detection.png\n- upper_computer/docs/MUJOCO_UPPER_INTEGRATION_ZH.md"}
+{"kind":"slide","id":"sl/5yesyn","slide":6,"title":"OPENARM / UPPER COMPUTER","textShapes":17}
+{"kind":"textbox","id":"sh/hkv61gfm","slide":6,"name":"kicker-6","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/uh4n6lwb","slide":6,"name":"title-6","text":"仿真闭环不是静态截图，而是可重复验证的执行过程","textPreview":"仿真闭环不是静态截图，而是可重复验证的执行过程","textChars":23,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/fidoz6xg","slide":6,"name":"rule-6","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/4nm5cved","slide":6,"name":"page-6","text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"shape","id":"sh/pof650fy","slide":6,"name":"sim-timeline-line","bbox":[102,344,1018,0]}
+{"kind":"shape","id":"sh/2l4nalw7","slide":6,"name":"sim-dot-0","bbox":[94,336,16,16]}
+{"kind":"shape","id":"sh/3mdo3qxs","slide":6,"name":"sim-dot-1","bbox":[500,336,16,16]}
+{"kind":"shape","id":"sh/cb65gve9","slide":6,"name":"sim-dot-2","bbox":[906,336,16,16]}
+{"kind":"textbox","id":"sh/dcf690fu","slide":6,"name":"sim-t-label-0","text":"视觉确认","textPreview":"视觉确认","textChars":4,"textLines":1,"bbox":[54,278,220,36]}
+{"kind":"textbox","id":"sh/hkrydgzq","slide":6,"name":"sim-t-title-0","text":"RGB → 检测","textPreview":"RGB → 检测","textChars":8,"textLines":1,"bbox":[54,388,300,44]}
+{"kind":"textbox","id":"sh/gjix4bi5","slide":6,"name":"sim-t-body-0","text":"橙色分割、检测框、像素反投影与目标时效校验","textPreview":"橙色分割、检测框、像素反投影与目标时效校验","textChars":21,"textLines":1,"bbox":[54,454,322,102]}
+{"kind":"textbox","id":"sh/fipgb6hk","slide":6,"name":"sim-t-label-1","text":"安全与规划","textPreview":"安全与规划","textChars":5,"textLines":1,"bbox":[458,278,220,36]}
+{"kind":"textbox","id":"sh/uhgf210z","slide":6,"name":"sim-t-title-1","text":"目标 → 任务","textPreview":"目标 → 任务","textChars":7,"textLines":1,"bbox":[458,388,300,44]}
+{"kind":"textbox","id":"sh/p8ryhgzm","slide":6,"name":"sim-t-body-1","text":"工作空间检查、稳定示教点匹配、双臂规划器与碰撞日志","textPreview":"工作空间检查、稳定示教点匹配、双臂规划器与碰撞日志","textChars":25,"textLines":1,"bbox":[458,454,322,102]}
+{"kind":"textbox","id":"sh/47ix8bi1","slide":6,"name":"sim-t-label-2","text":"执行与证据","textPreview":"执行与证据","textChars":5,"textLines":1,"bbox":[864,278,220,36]}
+{"kind":"textbox","id":"sh/3m9gf6hg","slide":6,"name":"sim-t-title-2","text":"动作 → 结果","textPreview":"动作 → 结果","textChars":7,"textLines":1,"bbox":[864,388,300,44]}
+{"kind":"textbox","id":"sh/2l0f610b","slide":6,"name":"sim-t-body-2","text":"抓取、抬升、放置、状态回传、会话与任务日志","textPreview":"抓取、抬升、放置、状态回传、会话与任务日志","textChars":21,"textLines":1,"bbox":[864,454,322,102]}
+{"kind":"textbox","id":"sh/5c7e5czi","slide":6,"name":"sim-proof-1","text":"2 / 2","textPreview":"2 / 2","textChars":5,"textLines":1,"bbox":[54,173,160,64]}
+{"kind":"textbox","id":"sh/kbyxwrix","slide":6,"name":"sim-proof-1-label","text":"原 V18.3 左右视觉放置成功","textPreview":"原 V18.3 左右视觉放置成功","textChars":16,"textLines":1,"bbox":[210,188,330,36]}
+{"kind":"textbox","id":"sh/wvixcrqt","slide":6,"name":"sim-proof-2","text":"51 帧 / 6.06 s","textPreview":"51 帧 / 6.06 s","textChars":13,"textLines":1,"bbox":[595,173,300,64]}
+{"kind":"textbox","id":"sh/xwbylwre","slide":6,"name":"sim-proof-2-label","text":"运动区间 JPEG 全部不同","textPreview":"运动区间 JPEG 全部不同","textChars":14,"textLines":1,"bbox":[895,188,310,36]}
+{"kind":"textbox","id":"sh/at0fah8n","slide":6,"name":"sim-boundary","text":"当前桥接仍只开放已验证右臂固定点；任意目标和中途急停属于下一阶段。","textPreview":"当前桥接仍只开放已验证右臂固定点；任意目标和中途急停属于下一阶段。","textChars":33,"textLines":1,"bbox":[54,607,1130,42]}
+{"kind":"notes","id":"nt/5yesyn","slide":6,"text":"2/2 是原 V18.3 报告结果；51 帧是本次实时推流回归。说明复用了已有可靠动作，同时新增了上位机链路和运动中间帧，而不是重新发明控制器。\n\n[Sources]\n- outputs/bimanual_task_planner_demo/vision_grasp_report_v18.md\n- upper_computer/docs/MUJOCO_UPPER_INTEGRATION_ZH.md"}
+{"kind":"slide","id":"sl/tk7lrn","slide":7,"title":"REAL-SIDE UPPER COMPUTER / SECOND DEMO","textShapes":18}
+{"kind":"textbox","id":"sh/gjap87qp","slide":7,"name":"kicker-7","text":"REAL-SIDE UPPER COMPUTER / SECOND DEMO","textPreview":"REAL-SIDE UPPER COMPUTER / SECOND DEMO","textChars":38,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/vi1of2p4","slide":7,"name":"title-7","text":"真机侧已完成“可观察、可诊断、不可误执行”","textPreview":"真机侧已完成“可观察、可诊断、不可误执行”","textChars":21,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/uxs76x8j","slide":7,"name":"rule-7","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/5o36lc76","slide":7,"name":"page-7","text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"shape","id":"sh/4nupc7q1","slide":7,"name":"real-vision-frame","bbox":[54,184,432,438]}
+{"kind":"textbox","id":"sh/ilc7ah8v","slide":7,"name":"real-vision-title","text":"视觉接入","textPreview":"视觉接入","textChars":4,"textLines":1,"bbox":[520,192,260,40]}
+{"kind":"textbox","id":"sh/dsn6pw7i","slide":7,"name":"real-v-bullets-dot-0","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,245,24,32]}
+{"kind":"textbox","id":"sh/srupgrqx","slide":7,"name":"real-v-bullets-text-0","text":"兼容视觉组 robot_state WebSocket","textPreview":"兼容视觉组 robot_state WebSocket","textChars":27,"textLines":1,"bbox":[550,246,360,38]}
+{"kind":"textbox","id":"sh/2tsza1k7","slide":7,"name":"real-v-bullets-dot-1","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,290,24,32]}
+{"kind":"textbox","id":"sh/3u1gj6ls","slide":7,"name":"real-v-bullets-text-1","text":"实时 JPEG、类别、像素中心与深度","textPreview":"实时 JPEG、类别、像素中心与深度","textChars":18,"textLines":1,"bbox":[550,291,360,38]}
+{"kind":"textbox","id":"sh/ovahcb2d","slide":7,"name":"real-v-bullets-dot-2","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,335,24,32]}
+{"kind":"textbox","id":"sh/pwjylg3y","slide":7,"name":"real-v-bullets-text-2","text":"心跳、断线重连、超时和队列限流","textPreview":"心跳、断线重连、超时和队列限流","textChars":15,"textLines":1,"bbox":[550,336,360,38]}
+{"kind":"textbox","id":"sh/qxszelk3","slide":7,"name":"real-elec-title","text":"电控接入","textPreview":"电控接入","textChars":4,"textLines":1,"bbox":[520,420,260,40]}
+{"kind":"textbox","id":"sh/by1gn6lo","slide":7,"name":"real-e-bullets-dot-0","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,473,24,32]}
+{"kind":"textbox","id":"sh/czahgb29","slide":7,"name":"real-e-bullets-text-0","text":"USART10 24 字节编解码与流解析","textPreview":"USART10 24 字节编解码与流解析","textChars":20,"textLines":1,"bbox":[550,474,360,38]}
+{"kind":"textbox","id":"sh/d03ypg3u","slide":7,"name":"real-e-bullets-dot-1","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,518,24,32]}
+{"kind":"textbox","id":"sh/618f2hkz","slide":7,"name":"real-e-bullets-text-1","text":"J1～J7 CAN ID、路由和限位配置","textPreview":"J1～J7 CAN ID、路由和限位配置","textChars":20,"textLines":1,"bbox":[550,519,360,38]}
+{"kind":"textbox","id":"sh/r2hgbmlk","slide":7,"name":"real-e-bullets-dot-2","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[520,563,24,32]}
+{"kind":"textbox","id":"sh/v6dwji1c","slide":7,"name":"real-e-bullets-text-2","text":"串口枚举与 J1 只读监视工具","textPreview":"串口枚举与 J1 只读监视工具","textChars":15,"textLines":1,"bbox":[550,564,360,38]}
+{"kind":"shape","id":"sh/u54vad0r","slide":7,"name":"real-motor-frame","bbox":[938,184,288,438]}
+{"kind":"textbox","id":"sh/w7mdcnix","slide":7,"name":"real-lock","text":"真机运动写入仍被明确禁用","textPreview":"真机运动写入仍被明确禁用","textChars":12,"textLines":1,"bbox":[54,642,1120,32]}
+{"kind":"image","id":"im/qh0n6x0j","slide":7,"name":"","alt":"视觉组环境与待确认项状态截图","bbox":[70,197,400,412]}
+{"kind":"image","id":"im/i9c72d8n","slide":7,"name":"","alt":"J1 电机 CAN 工具状态截图","bbox":[954,198,256,410]}
+{"kind":"notes","id":"nt/tk7lrn","slide":7,"text":"这里展示的是‘真机侧上位机能力’，不是声称已经完成真机抓取。先展示视觉监视，再展示电控协议和端口诊断，最后指出写控制被安全锁住。\n\n[Sources]\n- upper_computer/report/assets/vision_team_status.png\n- upper_computer/vendor/electrical_reference/motor_j1_can_tool.png\n- upper_computer/docs/VISION_INTEGRATION_REVIEW_ZH.md\n- upper_computer/docs/ELECTRICAL_INTEGRATION_REVIEW_ZH.md"}
+{"kind":"slide","id":"sl/inracm","slide":8,"title":"OPENARM / UPPER COMPUTER","textShapes":16}
+{"kind":"textbox","id":"sh/wby10b21","slide":8,"name":"kicker-8","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/va5076lw","slide":8,"name":"title-8","text":"演示二：真机上位机按“观察 → 诊断 → 只读”展开","textPreview":"演示二：真机上位机按“观察 → 诊断 → 只读”展开","textChars":26,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/a9wjy1kb","slide":8,"name":"rule-8","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/98ni5g3q","slide":8,"name":"page-8","text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"shape","id":"sh/87e1wb25","slide":8,"name":"real-demo-arrow-0","bbox":[304,354,58,30]}
+{"kind":"shape","id":"sh/n65036lk","slide":8,"name":"real-demo-arrow-1","bbox":[606,354,58,30]}
+{"kind":"shape","id":"sh/m5wju1kz","slide":8,"name":"real-demo-arrow-2","bbox":[908,354,58,30]}
+{"kind":"shape","id":"sh/t4r2h03u","slide":8,"name":"real-demo-step-0","bbox":[54,242,250,292]}
+{"kind":"textbox","id":"sh/s3i18v29","slide":8,"name":"real-demo-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[76,270,70,55]}
+{"kind":"textbox","id":"sh/6dwvi58j","slide":8,"name":"real-demo-title-0","text":"连接视觉服务","textPreview":"连接视觉服务","textChars":6,"textLines":1,"bbox":[76,342,206,66]}
+{"kind":"textbox","id":"sh/7e5cbq94","slide":8,"name":"real-demo-body-0","text":"运行 run_vision_monitor.bat\n接收 D435i / YOLO WebSocket","textPreview":"运行 run_vision_monitor.bat | 接收 D435i / YOLO WebSocket","textChars":51,"textLines":2,"bbox":[76,430,206,78]}
+{"kind":"shape","id":"sh/sfedkvqp","slide":8,"name":"real-demo-step-1","bbox":[356,242,250,292]}
+{"kind":"textbox","id":"sh/tg7ud0ra","slide":8,"name":"real-demo-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[378,270,70,55]}
+{"kind":"textbox","id":"sh/ipwbel8n","slide":8,"name":"real-demo-title-1","text":"展示实时感知","textPreview":"展示实时感知","textChars":6,"textLines":1,"bbox":[378,342,206,66]}
+{"kind":"textbox","id":"sh/jq5c7q98","slide":8,"name":"real-demo-body-1","text":"JPEG、类别、像素 x/y\n以及深度 z 与失联提示","textPreview":"JPEG、类别、像素 x/y | 以及深度 z 与失联提示","textChars":27,"textLines":2,"bbox":[378,430,206,78]}
+{"kind":"shape","id":"sh/kbedgvqd","slide":8,"name":"real-demo-step-2","bbox":[658,242,250,292]}
+{"kind":"textbox","id":"sh/5cnu90ry","slide":8,"name":"real-demo-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[680,270,70,55]}
+{"kind":"textbox","id":"sh/2lgvqp8r","slide":8,"name":"real-demo-title-2","text":"扫描串口","textPreview":"扫描串口","textChars":4,"textLines":1,"bbox":[680,342,206,66]}
+{"kind":"textbox","id":"sh/3mpcju9c","slide":8,"name":"real-demo-body-2","text":"运行 scan_serial_ports.bat\n证明当前无 USB-UART 候选","textPreview":"运行 scan_serial_ports.bat | 证明当前无 USB-UART 候选","textChars":42,"textLines":2,"bbox":[680,430,206,78]}
+{"kind":"shape","id":"sh/zq1sbmpo","slide":8,"name":"real-demo-step-3","bbox":[960,242,250,292]}
+{"kind":"textbox","id":"sh/epsriho3","slide":8,"name":"real-demo-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[982,270,70,55]}
+{"kind":"textbox","id":"sh/1sjadc7u","slide":8,"name":"real-demo-title-3","text":"展示协议工具","textPreview":"展示协议工具","textChars":6,"textLines":1,"bbox":[982,342,206,66]}
+{"kind":"textbox","id":"sh/0ra9k769","slide":8,"name":"real-demo-body-3","text":"离线编码 / 解码 / 捕获解析\n真机仅允许 J1 只读监视","textPreview":"离线编码 / 解码 / 捕获解析 | 真机仅允许 J1 只读监视","textChars":30,"textLines":2,"bbox":[982,430,206,78]}
+{"kind":"shape","id":"sh/nu1sfmp0","slide":8,"name":"real-demo-lock-panel","bbox":[54,577,1156,74]}
+{"kind":"textbox","id":"sh/mtsrmhof","slide":8,"name":"real-demo-lock-text","text":"执行按钮保持锁定：当前演示验证的是上位机接口与安全行为，不是假装已经具备真机闭环。","textPreview":"执行按钮保持锁定：当前演示验证的是上位机接口与安全行为，不是假装已经具备真机闭环。","textChars":41,"textLines":1,"bbox":[82,598,1095,35]}
+{"kind":"notes","id":"nt/inracm","slide":8,"text":"如果现场没有 D435i 或视觉机，用已有消息和只观察界面展示接口；不要为了演示效果连接未知 COM 口。串口扫描是演示的一部分，它证明系统没有猜端口。\n\n[Sources]\n- upper_computer/report/演示与汇报说明.md\n- upper_computer/run_course_demo.bat\n- upper_computer/tools/list_serial_ports.py"}
+{"kind":"slide","id":"sl/11qkyb","slide":9,"title":"OPENARM / UPPER COMPUTER","textShapes":25}
+{"kind":"textbox","id":"sh/l8vqt4r6","slide":9,"name":"kicker-9","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/yl47ip8f","slide":9,"name":"title-9","text":"真机未完成部署：控制闭环与安全依据仍缺失","textPreview":"真机未完成部署：控制闭环与安全依据仍缺失","textChars":20,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/zmd8ru90","slide":9,"name":"rule-9","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/cj2pgfqp","slide":9,"name":"page-9","text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"textbox","id":"sh/dkvqpkru","slide":9,"name":"blocker-context","text":"所有阻塞项都来自现有资料和现场检查；在它们闭环前开放写控制会把软件问题变成人身与设备风险。","textPreview":"所有阻塞项都来自现有资料和现场检查；在它们闭环前开放写控制会把软件问题变成人身与设备风险。","textChars":45,"textLines":1,"bbox":[54,168,1140,55]}
+{"kind":"shape","id":"sh/qhk7e58j","slide":9,"name":"block-head-0","bbox":[54,246,191,54]}
+{"kind":"textbox","id":"sh/bit8na94","slide":9,"name":"block-head-text-0","text":"阻塞项","textPreview":"阻塞项","textChars":3,"textLines":1,"bbox":[66,260,167,30]}
+{"kind":"shape","id":"sh/wf69sjqt","slide":9,"name":"block-head-1","bbox":[245,246,431,54]}
+{"kind":"textbox","id":"sh/xgfq1ore","slide":9,"name":"block-head-text-1","text":"当前证据","textPreview":"当前证据","textChars":4,"textLines":1,"bbox":[257,260,407,30]}
+{"kind":"shape","id":"sh/18nq90re","slide":9,"name":"block-head-2","bbox":[676,246,324,54]}
+{"kind":"textbox","id":"sh/07e9gvqt","slide":9,"name":"block-head-text-2","text":"缺失闭环","textPreview":"缺失闭环","textChars":4,"textLines":1,"bbox":[688,260,300,30]}
+{"kind":"shape","id":"sh/z6l87a98","slide":9,"name":"block-head-3","bbox":[1000,246,226,54]}
+{"kind":"textbox","id":"sh/e5cre58n","slide":9,"name":"block-head-text-3","text":"风险","textPreview":"风险","textChars":2,"textLines":1,"bbox":[1012,260,202,30]}
+{"kind":"shape","id":"sh/d43q50r2","slide":9,"name":"block-cell-0-0","bbox":[54,300,191,74]}
+{"kind":"textbox","id":"sh/cju9cvqx","slide":9,"name":"block-cell-text-0-0","text":"视觉标定","textPreview":"视觉标定","textChars":4,"textLines":1,"bbox":[64,310,171,54]}
+{"kind":"shape","id":"sh/ril83q9c","slide":9,"name":"block-cell-0-1","bbox":[245,300,431,74]}
+{"kind":"textbox","id":"sh/qhc7al8r","slide":9,"name":"block-cell-text-0-1","text":"x/y 是像素，z 是深度","textPreview":"x/y 是像素，z 是深度","textChars":13,"textLines":1,"bbox":[255,310,411,54]}
+{"kind":"shape","id":"sh/x07ahkrm","slide":9,"name":"block-cell-0-2","bbox":[676,300,324,74]}
+{"kind":"textbox","id":"sh/wfy9ofq1","slide":9,"name":"block-cell-text-0-2","text":"内参、手眼外参、base_link 三维点","textPreview":"内参、手眼外参、base_link 三维点","textChars":21,"textLines":1,"bbox":[686,310,304,54]}
+{"kind":"shape","id":"sh/wj6tk3yd","slide":9,"name":"block-cell-0-3","bbox":[1000,300,226,74]}
+{"kind":"textbox","id":"sh/hkfad8fi","slide":9,"name":"block-cell-text-0-3","text":"抓错位置","textPreview":"抓错位置","textChars":4,"textLines":1,"bbox":[1010,310,206,54]}
+{"kind":"shape","id":"sh/uh4bitg7","slide":9,"name":"block-cell-1-0","bbox":[54,374,191,74]}
+{"kind":"textbox","id":"sh/vixsbyxs","slide":9,"name":"block-cell-text-1-0","text":"固件闭环","textPreview":"固件闭环","textChars":4,"textLines":1,"bbox":[64,384,171,54]}
+{"kind":"shape","id":"sh/8fmtgjy1","slide":9,"name":"block-cell-1-1","bbox":[245,374,431,74]}
+{"kind":"textbox","id":"sh/9gva9ozm","slide":9,"name":"block-cell-text-1-1","text":"仅回传 J1；pc_data 未驱动电机","textPreview":"仅回传 J1；pc_data 未驱动电机","textChars":20,"textLines":1,"bbox":[255,384,411,54]}
+{"kind":"shape","id":"sh/md4be9gv","slide":9,"name":"block-cell-1-2","bbox":[676,374,324,74]}
+{"kind":"textbox","id":"sh/7eds7ehg","slide":9,"name":"block-cell-text-1-2","text":"7 关节命令/遥测、ACK、看门狗","textPreview":"7 关节命令/遥测、ACK、看门狗","textChars":17,"textLines":1,"bbox":[686,384,304,54]}
+{"kind":"shape","id":"sh/kbmtcjy5","slide":9,"name":"block-cell-1-3","bbox":[1000,374,226,74]}
+{"kind":"textbox","id":"sh/lcva5oza","slide":9,"name":"block-cell-text-1-3","text":"失控或不可验证","textPreview":"失控或不可验证","textChars":7,"textLines":1,"bbox":[1010,384,206,54]}
+{"kind":"shape","id":"sh/nmtcve1c","slide":9,"name":"block-cell-2-0","bbox":[54,448,191,74]}
+{"kind":"textbox","id":"sh/2lkbm90r","slide":9,"name":"block-cell-text-2-0","text":"关节映射","textPreview":"关节映射","textChars":4,"textLines":1,"bbox":[64,458,171,54]}
+{"kind":"shape","id":"sh/pobux4ji","slide":9,"name":"block-cell-2-1","bbox":[245,448,431,74]}
+{"kind":"textbox","id":"sh/on2tojix","slide":9,"name":"block-cell-text-2-1","text":"CAN ID、路由和方向端点已知","textPreview":"CAN ID、路由和方向端点已知","textChars":16,"textLines":1,"bbox":[255,458,411,54]}
+{"kind":"shape","id":"sh/batcze18","slide":9,"name":"block-cell-2-2","bbox":[676,448,324,74]}
+{"kind":"textbox","id":"sh/a9kbq903","slide":9,"name":"block-cell-text-2-2","text":"机械零位、符号、偏置与低速实测","textPreview":"机械零位、符号、偏置与低速实测","textChars":15,"textLines":1,"bbox":[686,458,304,54]}
+{"kind":"shape","id":"sh/xcvu1oje","slide":9,"name":"block-cell-2-3","bbox":[1000,448,226,74]}
+{"kind":"textbox","id":"sh/cbmtsjit","slide":9,"name":"block-cell-text-2-3","text":"越限 / 碰撞","textPreview":"越限 / 碰撞","textChars":7,"textLines":1,"bbox":[1010,458,206,54]}
+{"kind":"shape","id":"sh/zedc3y1k","slide":9,"name":"block-cell-3-0","bbox":[54,522,191,74]}
+{"kind":"textbox","id":"sh/yd4but0z","slide":9,"name":"block-cell-text-3-0","text":"硬件安全","textPreview":"硬件安全","textChars":4,"textLines":1,"bbox":[64,532,171,54]}
+{"kind":"shape","id":"sh/itwnm1c7","slide":9,"name":"block-cell-3-1","bbox":[245,522,431,74]}
+{"kind":"textbox","id":"sh/ju54fmds","slide":9,"name":"block-cell-text-3-1","text":"3.3V TTL、115200 已确认","textPreview":"3.3V TTL、115200 已确认","textChars":19,"textLines":1,"bbox":[255,532,411,54]}
+{"kind":"shape","id":"sh/4ve5orud","slide":9,"name":"block-cell-3-2","bbox":[676,522,324,74]}
+{"kind":"textbox","id":"sh/5wn6hwvy","slide":9,"name":"block-cell-text-3-2","text":"USB-UART、物理急停、断电回路","textPreview":"USB-UART、物理急停、断电回路","textChars":18,"textLines":1,"bbox":[686,532,304,54]}
+{"kind":"shape","id":"sh/qxwnq1cj","slide":9,"name":"block-cell-3-3","bbox":[1000,522,226,74]}
+{"kind":"textbox","id":"sh/ry5oj6d4","slide":9,"name":"block-cell-text-3-3","text":"人员与设备风险","textPreview":"人员与设备风险","textChars":7,"textLines":1,"bbox":[1010,532,206,54]}
+{"kind":"textbox","id":"sh/sze5sbup","slide":9,"name":"blocker-conclusion","text":"工程判断：保持只读与执行闭锁，是当前资料条件下正确的完成状态。","textPreview":"工程判断：保持只读与执行闭锁，是当前资料条件下正确的完成状态。","textChars":31,"textLines":1,"bbox":[54,624,1110,42]}
+{"kind":"notes","id":"nt/11qkyb","slide":9,"text":"不要用‘还没来得及’解释真机未完成。应说明：视觉标定、固件七关节闭环、零位映射、硬急停和适配器都不完整；上位机已经识别这些缺口并阻止误执行。\n\n[Sources]\n- upper_computer/docs/ELECTRICAL_INTEGRATION_REVIEW_ZH.md\n- upper_computer/docs/VISION_INTEGRATION_REVIEW_ZH.md\n- upper_computer/docs/TEAMMATE_INTERFACE_CHECKLIST_ZH.md"}
+{"kind":"slide","id":"sl/5ccejj","slide":10,"title":"OPENARM / UPPER COMPUTER","textShapes":22}
+{"kind":"textbox","id":"sh/aporahcf","slide":10,"name":"kicker-10","text":"OPENARM / UPPER COMPUTER","textPreview":"OPENARM / UPPER COMPUTER","textChars":24,"textLines":1,"bbox":[54,28,420,26]}
+{"kind":"textbox","id":"sh/xsfa5cvq","slide":10,"name":"title-10","text":"阶段结论：仿真闭环可验收，真机必须补齐接口后再开放","textPreview":"阶段结论：仿真闭环可验收，真机必须补齐接口后再开放","textChars":25,"textLines":1,"bbox":[54,65,1165,68]}
+{"kind":"shape","id":"sh/cr69c7u5","slide":10,"name":"rule-10","bbox":[54,145,1172,0]}
+{"kind":"textbox","id":"sh/nmd8z2do","slide":10,"name":"page-10","text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,674,56,24]}
+{"kind":"textbox","id":"sh/2l4r6xc3","slide":10,"name":"close-left-title","text":"已交付","textPreview":"已交付","textChars":3,"textLines":1,"bbox":[54,190,300,50]}
+{"kind":"textbox","id":"sh/pova1cvu","slide":10,"name":"close-done-dot-0","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,265,24,32]}
+{"kind":"textbox","id":"sh/onm987u9","slide":10,"name":"close-done-text-0","text":"统一上位机 GUI、消息、安全和状态机","textPreview":"统一上位机 GUI、消息、安全和状态机","textChars":19,"textLines":1,"bbox":[84,266,480,43]}
+{"kind":"textbox","id":"sh/fyd8vids","slide":10,"name":"close-done-dot-1","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,321,24,32]}
+{"kind":"textbox","id":"sh/ex4r2xw7","slide":10,"name":"close-done-text-1","text":"MuJoCo 实时视觉与任务执行闭环","textPreview":"MuJoCo 实时视觉与任务执行闭环","textChars":18,"textLines":1,"bbox":[84,322,480,43]}
+{"kind":"textbox","id":"sh/87alwz6d","slide":10,"name":"close-done-dot-2","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,377,24,32]}
+{"kind":"textbox","id":"sh/98j2p4ny","slide":10,"name":"close-done-text-2","text":"真机视觉监视、USART10 工具与资料审查","textPreview":"真机视觉监视、USART10 工具与资料审查","textChars":22,"textLines":1,"bbox":[84,378,480,43]}
+{"kind":"textbox","id":"sh/m5s3upo7","slide":10,"name":"close-done-dot-3","text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[54,433,24,32]}
+{"kind":"textbox","id":"sh/n61knu5s","slide":10,"name":"close-done-text-3","text":"28 项测试、运行日志和演示手册","textPreview":"28 项测试、运行日志和演示手册","textChars":16,"textLines":1,"bbox":[84,434,480,43]}
+{"kind":"shape","id":"sh/0jalsf6h","slide":10,"name":"close-divider","bbox":[626,192,0,358]}
+{"kind":"textbox","id":"sh/lkj2lknm","slide":10,"name":"close-right-title","text":"真机开放前的四道门槛","textPreview":"真机开放前的四道门槛","textChars":10,"textLines":1,"bbox":[682,190,500,50]}
+{"kind":"textbox","id":"sh/yh83qpob","slide":10,"name":"gate-num-0","text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[682,264,58,44]}
+{"kind":"textbox","id":"sh/zihkju5w","slide":10,"name":"gate-text-0","text":"完成 D435i 内参与手眼标定","textPreview":"完成 D435i 内参与手眼标定","textChars":16,"textLines":1,"bbox":[750,267,445,44]}
+{"kind":"textbox","id":"sh/4ful4jml","slide":10,"name":"gate-num-1","text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[682,338,58,44]}
+{"kind":"textbox","id":"sh/503mxon6","slide":10,"name":"gate-text-1","text":"升级固件为 7 关节命令/遥测闭环","textPreview":"升级固件为 7 关节命令/遥测闭环","textChars":17,"textLines":1,"bbox":[750,341,445,44]}
+{"kind":"textbox","id":"sh/dwj2hofa","slide":10,"name":"gate-num-2","text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[682,412,58,44]}
+{"kind":"textbox","id":"sh/svqlojep","slide":10,"name":"gate-text-2","text":"低速确认零位、方向、偏置与限位","textPreview":"低速确认零位、方向、偏置与限位","textChars":15,"textLines":1,"bbox":[750,415,445,44]}
+{"kind":"textbox","id":"sh/ruhkfex4","slide":10,"name":"gate-num-3","text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[682,486,58,44]}
+{"kind":"textbox","id":"sh/qt83m9wj","slide":10,"name":"gate-text-3","text":"验证物理急停、看门狗、ACK 与故障恢复","textPreview":"验证物理急停、看门狗、ACK 与故障恢复","textChars":20,"textLines":1,"bbox":[750,489,445,44]}
+{"kind":"shape","id":"sh/5sz2d4fy","slide":10,"name":"close-final-panel","bbox":[54,586,1156,72]}
+{"kind":"textbox","id":"sh/4rqlkzet","slide":10,"name":"close-final","text":"下一阶段路线：标定 → 固件闭环 → 单关节低速 → 七关节联调 → 视觉抓取","textPreview":"下一阶段路线：标定 → 固件闭环 → 单关节低速 → 七关节联调 → 视觉抓取","textChars":39,"textLines":1,"bbox":[80,607,1100,34]}
+{"kind":"notes","id":"nt/5ccejj","slide":10,"text":"收尾回到课程目标：上位机软件工作已经形成可演示、可测试、可继续接真的基础。下一步不是重写界面，而是让视觉与电控按清单补齐可执行证据。\n\n[Sources]\n- upper_computer/report/演示与汇报说明.md\n- upper_computer/PROJECT_STRUCTURE_ZH.md\n- upper_computer/docs/TEAMMATE_INTERFACE_CHECKLIST_ZH.md"}

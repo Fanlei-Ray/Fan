@@ -1,0 +1,451 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/qfuvxv",
+    "id": "qfuvxv",
+    "slide": 1,
+    "layoutId": "907a9c7f-bca7-4335-9da3-3d4296a0121c",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9a6fdc06-6079-454e-bfed-108ea3b0e5af",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "907a9c7f-bca7-4335-9da3-3d4296a0121c",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9a6fdc06-6079-454e-bfed-108ea3b0e5af",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9a6fdc06-6079-454e-bfed-108ea3b0e5af",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wna18be1",
+      "id": "1",
+      "name": "cover-kicker",
+      "bbox": [
+        54,
+        44,
+        510,
+        28
+      ],
+      "geometry": "rect",
+      "text": "COURSE PROJECT / 课程项目阶段汇报",
+      "textPreview": "COURSE PROJECT / 课程项目阶段汇报",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17,
+        "typeface": "Microsoft YaHei",
+        "color": "#3D8DFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "COURSE PROJECT / 课程项目阶段汇报"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "COURSE PROJECT / 课程项目阶段汇报",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "typeface": "Microsoft YaHei",
+            "color": "#3D8DFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "COURSE PROJECT / 课程项目阶段汇报",
+              "fontSize": 17,
+              "typeface": "Microsoft YaHei",
+              "color": "#3D8DFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm1kfqxg",
+      "id": "2",
+      "name": "cover-title",
+      "bbox": [
+        54,
+        126,
+        595,
+        164
+      ],
+      "geometry": "rect",
+      "text": "OpenArm\n视觉—上位机联调",
+      "textPreview": "OpenArm | 视觉—上位机联调",
+      "resolvedFontSize": 60,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 60,
+        "typeface": "Microsoft YaHei",
+        "color": "#111111",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OpenArm"
+          },
+          {
+            "index": 2,
+            "text": "视觉—上位机联调"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OpenArm",
+          "resolvedTextStyle": {
+            "fontSize": 60,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "OpenArm",
+              "fontSize": 60,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "视觉—上位机联调",
+          "resolvedTextStyle": {
+            "fontSize": 60,
+            "typeface": "Microsoft YaHei",
+            "color": "#111111",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "视觉—上位机联调",
+              "fontSize": 60,
+              "typeface": "Microsoft YaHei",
+              "color": "#111111",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al8j6lwv",
+      "id": "3",
+      "name": "cover-subtitle",
+      "bbox": [
+        58,
+        334,
+        510,
+        105
+      ],
+      "geometry": "rect",
+      "text": "仿真软件闭环已完成\n真机控制保持安全闭锁",
+      "textPreview": "仿真软件闭环已完成 | 真机控制保持安全闭锁",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 30,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B6470",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "仿真软件闭环已完成"
+          },
+          {
+            "index": 2,
+            "text": "真机控制保持安全闭锁"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "仿真软件闭环已完成",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B6470",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "仿真软件闭环已完成",
+              "fontSize": 30,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B6470",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "真机控制保持安全闭锁",
+          "resolvedTextStyle": {
+            "fontSize": 30,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B6470",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "真机控制保持安全闭锁",
+              "fontSize": 30,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B6470",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kzidgfa",
+      "id": "4",
+      "name": "cover-accent",
+      "bbox": [
+        58,
+        481,
+        168,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#3D8DFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ojq14bep",
+      "id": "5",
+      "name": "cover-footer",
+      "bbox": [
+        58,
+        526,
+        550,
+        64
+      ],
+      "geometry": "rect",
+      "text": "上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析",
+      "textPreview": "上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#5B6470",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#5B6470",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "上位机工作内容 · 仿真演示 · 真机侧演示 · 部署阻塞分析",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#5B6470",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih0b6x4",
+      "id": "6",
+      "name": "cover-image-field",
+      "bbox": [
+        665,
+        36,
+        560,
+        632
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#0B0B0B",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7qt03ixw",
+      "id": "7",
+      "bbox": [
+        690,
+        58,
+        510,
+        584
+      ],
+      "alt": "OpenArm 双臂 MuJoCo 模型",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "7afe5b1e-63f4-4305-b798-3b31188b0842",
+        "contentType": "image/png",
+        "byteLength": 235278
+      }
+    }
+  ],
+  "composeRuns": []
+}

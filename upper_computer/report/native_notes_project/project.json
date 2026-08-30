@@ -1,0 +1,43 @@
+{
+  "schema": "native_pptx_enhancement_project.v1",
+  "kind": "native_pptx_enhancement",
+  "modules": [
+    "notes",
+    "audio",
+    "timings",
+    "transitions",
+    "delivery.check"
+  ],
+  "source_pptx": "sources/OpenArm_上位机课程项目汇报.pptx",
+  "source_markdown": "sources/OpenArm_上位机课程项目汇报.md",
+  "source_import": {
+    "mode": "copy",
+    "original_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\upper_computer\\report\\OpenArm_上位机课程项目汇报.pptx"
+  },
+  "source_sha256": "58910505840417b93a85aa434a927f0f3facfe79fdc80ae1a376c6e54a68b05e",
+  "slide_count": 10,
+  "slide_part_roster": [
+    "ppt/slides/slide1.xml",
+    "ppt/slides/slide2.xml",
+    "ppt/slides/slide3.xml",
+    "ppt/slides/slide4.xml",
+    "ppt/slides/slide5.xml",
+    "ppt/slides/slide6.xml",
+    "ppt/slides/slide7.xml",
+    "ppt/slides/slide8.xml",
+    "ppt/slides/slide9.xml",
+    "ppt/slides/slide10.xml"
+  ],
+  "notes_dir": "notes",
+  "audio_dir": "audio",
+  "exports_dir": "exports",
+  "transition": {
+    "effect": "fade",
+    "duration": 0.5
+  },
+  "audio": {
+    "provider": "",
+    "voice": "",
+    "rate": ""
+  }
+}

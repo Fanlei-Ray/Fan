@@ -1,0 +1,77 @@
+{
+  "schema": "native_pptx_enhancement_slide_index.v1",
+  "source_pptx": "sources/OpenArm_上位机课程项目汇报.pptx",
+  "slide_count": 10,
+  "slides": [
+    {
+      "index": 1,
+      "note_file": "notes/001.md",
+      "audio_stem": "001",
+      "part_name": "ppt/slides/slide1.xml",
+      "slide_number": 1
+    },
+    {
+      "index": 2,
+      "note_file": "notes/002.md",
+      "audio_stem": "002",
+      "part_name": "ppt/slides/slide2.xml",
+      "slide_number": 2
+    },
+    {
+      "index": 3,
+      "note_file": "notes/003.md",
+      "audio_stem": "003",
+      "part_name": "ppt/slides/slide3.xml",
+      "slide_number": 3
+    },
+    {
+      "index": 4,
+      "note_file": "notes/004.md",
+      "audio_stem": "004",
+      "part_name": "ppt/slides/slide4.xml",
+      "slide_number": 4
+    },
+    {
+      "index": 5,
+      "note_file": "notes/005.md",
+      "audio_stem": "005",
+      "part_name": "ppt/slides/slide5.xml",
+      "slide_number": 5
+    },
+    {
+      "index": 6,
+      "note_file": "notes/006.md",
+      "audio_stem": "006",
+      "part_name": "ppt/slides/slide6.xml",
+      "slide_number": 6
+    },
+    {
+      "index": 7,
+      "note_file": "notes/007.md",
+      "audio_stem": "007",
+      "part_name": "ppt/slides/slide7.xml",
+      "slide_number": 7
+    },
+    {
+      "index": 8,
+      "note_file": "notes/008.md",
+      "audio_stem": "008",
+      "part_name": "ppt/slides/slide8.xml",
+      "slide_number": 8
+    },
+    {
+      "index": 9,
+      "note_file": "notes/009.md",
+      "audio_stem": "009",
+      "part_name": "ppt/slides/slide9.xml",
+      "slide_number": 9
+    },
+    {
+      "index": 10,
+      "note_file": "notes/010.md",
+      "audio_stem": "010",
+      "part_name": "ppt/slides/slide10.xml",
+      "slide_number": 10
+    }
+  ]
+}

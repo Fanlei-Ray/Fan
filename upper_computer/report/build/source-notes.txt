@@ -1,0 +1,28 @@
+Communication job: By the end, the course instructor should understand that the upper-computer work is a substantial, testable integration layer; the MuJoCo path is ready for demonstration, while real-hardware actuation was deliberately kept locked because calibration, firmware closure, mapping, and hardware safety evidence are incomplete.
+
+Visual route: Codex Grid reference system, using slide-08 image split, slide-17 process timeline, slide-19 metric evidence, and slide-14 table evidence as composition references. White canvas, black type, gray panels, blue highlight, orange only for MuJoCo evidence.
+
+Project-local sources:
+- upper_computer/README.md
+- upper_computer/PROJECT_STRUCTURE_ZH.md
+- upper_computer/docs/MUJOCO_UPPER_INTEGRATION_ZH.md
+- upper_computer/docs/VISION_INTEGRATION_REVIEW_ZH.md
+- upper_computer/docs/ELECTRICAL_INTEGRATION_REVIEW_ZH.md
+- upper_computer/docs/TEAMMATE_INTERFACE_CHECKLIST_ZH.md
+- upper_computer/report/演示与汇报说明.md
+- outputs/bimanual_task_planner_demo/vision_grasp_report_v18.md
+- outputs/bimanual_task_planner_demo/vision_debug_v18/vision_right_001_detection.png
+- upper_computer/vendor/electrical_reference/motor_j1_can_tool.png
+- user-provided vision status screenshot copied to upper_computer/report/assets/vision_team_status.png
+- media/v2.png
+
+Measured project inventory (excluding vendor, runtime, .venv and cache):
+- Application source: 18 Python files, 1,754 lines.
+- Tests: 9 Python files, 578 lines, 28 test cases.
+- Tools: 3 Python files, 222 lines.
+- Configuration: 6 JSON files, 390 lines.
+- Documents: 5 Markdown files, 485 lines before report additions.
+- Launch scripts: 5 BAT files before run_course_demo.bat, 106 lines.
+- MuJoCo vision bridge and detector: 2 Python files, 1,009 lines.
+
+No network sources or external stock media were used.

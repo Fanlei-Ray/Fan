@@ -1,0 +1,158 @@
+[
+  {
+    "index": 1,
+    "filename": "image.png",
+    "original_filename": "image.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "pptx_picture",
+    "source_ext": ".png",
+    "source_target": "ppt/media/image.png",
+    "content_type": "image/png",
+    "display_left_emu": 7085932,
+    "display_top_emu": 552450,
+    "display_width_emu": 3830387,
+    "display_height_emu": 5562600,
+    "display_width_in": 4.189,
+    "display_height_in": 6.0833,
+    "display_ratio": 0.688597,
+    "pixel_width": 1256,
+    "pixel_height": 1824,
+    "pixel_ratio": 0.688596,
+    "occurrences": [
+      {
+        "slide_index": 1,
+        "shape_name": "",
+        "display_left_emu": 7085932,
+        "display_top_emu": 552450,
+        "display_width_emu": 3830387,
+        "display_height_emu": 5562600,
+        "display_width_in": 4.189,
+        "display_height_in": 6.0833,
+        "display_ratio": 0.688597
+      }
+    ],
+    "usage_count": 1,
+    "display_ratio_variants": [
+      0.688597
+    ]
+  },
+  {
+    "index": 2,
+    "filename": "image2.png",
+    "original_filename": "image2.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "pptx_picture",
+    "source_ext": ".png",
+    "source_target": "ppt/media/image2.png",
+    "content_type": "image/png",
+    "display_left_emu": 6083300,
+    "display_top_emu": 1866900,
+    "display_width_emu": 5283200,
+    "display_height_emu": 3962400,
+    "display_width_in": 5.7778,
+    "display_height_in": 4.3333,
+    "display_ratio": 1.333333,
+    "pixel_width": 960,
+    "pixel_height": 720,
+    "pixel_ratio": 1.333333,
+    "occurrences": [
+      {
+        "slide_index": 5,
+        "shape_name": "",
+        "display_left_emu": 6083300,
+        "display_top_emu": 1866900,
+        "display_width_emu": 5283200,
+        "display_height_emu": 3962400,
+        "display_width_in": 5.7778,
+        "display_height_in": 4.3333,
+        "display_ratio": 1.333333
+      }
+    ],
+    "usage_count": 1,
+    "display_ratio_variants": [
+      1.333333
+    ]
+  },
+  {
+    "index": 3,
+    "filename": "image3.png",
+    "original_filename": "image3.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "pptx_picture",
+    "source_ext": ".png",
+    "source_target": "ppt/media/image3.png",
+    "content_type": "image/png",
+    "display_left_emu": 1262984,
+    "display_top_emu": 1876425,
+    "display_width_emu": 2617532,
+    "display_height_emu": 3924300,
+    "display_width_in": 2.8626,
+    "display_height_in": 4.2917,
+    "display_ratio": 0.667006,
+    "pixel_width": 655,
+    "pixel_height": 982,
+    "pixel_ratio": 0.667006,
+    "occurrences": [
+      {
+        "slide_index": 7,
+        "shape_name": "",
+        "display_left_emu": 1262984,
+        "display_top_emu": 1876425,
+        "display_width_emu": 2617532,
+        "display_height_emu": 3924300,
+        "display_width_in": 2.8626,
+        "display_height_in": 4.2917,
+        "display_ratio": 0.667006
+      }
+    ],
+    "usage_count": 1,
+    "display_ratio_variants": [
+      0.667006
+    ]
+  },
+  {
+    "index": 4,
+    "filename": "image4.png",
+    "original_filename": "image4.png",
+    "asset_kind": "bitmap",
+    "svg_renderable": true,
+    "pptx_native_supported": true,
+    "source_kind": "pptx_picture",
+    "source_ext": ".png",
+    "source_target": "ppt/media/image4.png",
+    "content_type": "image/png",
+    "display_left_emu": 9484032,
+    "display_top_emu": 1885950,
+    "display_width_emu": 1644036,
+    "display_height_emu": 3905250,
+    "display_width_in": 1.7979,
+    "display_height_in": 4.2708,
+    "display_ratio": 0.420981,
+    "pixel_width": 309,
+    "pixel_height": 734,
+    "pixel_ratio": 0.420981,
+    "occurrences": [
+      {
+        "slide_index": 7,
+        "shape_name": "",
+        "display_left_emu": 9484032,
+        "display_top_emu": 1885950,
+        "display_width_emu": 1644036,
+        "display_height_emu": 3905250,
+        "display_width_in": 1.7979,
+        "display_height_in": 4.2708,
+        "display_ratio": 0.420981
+      }
+    ],
+    "usage_count": 1,
+    "display_ratio_variants": [
+      0.420981
+    ]
+  }
+]

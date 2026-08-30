@@ -1,0 +1,50 @@
+{
+  "schema": "native_pptx_enhancement_plan.v1",
+  "status": "confirmed",
+  "source_pptx": "sources/OpenArm_上位机课程项目汇报.pptx",
+  "slide_count": 10,
+  "modules": {
+    "notes": {
+      "enabled": true,
+      "requires_confirmation": true,
+      "status": "needs_notes",
+      "coverage": {
+        "present": 0,
+        "total": 10
+      }
+    },
+    "audio": {
+      "enabled": false,
+      "requires_confirmation": true,
+      "status": "needs_audio",
+      "coverage": {
+        "present": 0,
+        "total": 10
+      },
+      "decodability": "unchecked"
+    },
+    "timings": {
+      "enabled": false,
+      "requires_confirmation": true,
+      "status": "blocked_until_audio",
+      "source": "audio_duration",
+      "narration_padding": 0.4,
+      "narration_start_floor": 0.8
+    },
+    "transitions": {
+      "enabled": false,
+      "requires_confirmation": true,
+      "status": "ready",
+      "effect": "fade",
+      "duration": 0.5,
+      "apply_without_audio": false
+    }
+  },
+  "not_in_v1": [
+    "object_animation",
+    "visible_watermark",
+    "footer_or_logo_insertion",
+    "background_music",
+    "media_compression"
+  ]
+}

@@ -1,0 +1,26 @@
+OpenArm upper-computer report QA
+Date: 2026-08-26
+
+Presentation:
+- Final PPTX: ../OpenArm_上位机课程项目汇报.pptx
+- Slide count: 10
+- Every slide rendered through artifact-tool and final PPTX renderer.
+- Final PPTX overflow test: passed; no overflow detected.
+- Full-size visual inspection: completed for slides 01-10.
+- Speaker notes: every slide contains a [Sources] block.
+
+Application regression:
+- 28 automated upper-computer tests passed.
+- MuJoCo bridge final task: report-final-proof.
+- Status sequence: PLANNING -> EXECUTING -> SUCCEEDED.
+- Pick success: true.
+- Place success: true.
+- Lift delta: 0.1003249418 m.
+- XY distance: 0.0243618029 m.
+- Z margin: 0.0298922446 m.
+- 113 streamed frames observed during the low-overhead final proof.
+
+Cleanup:
+- Test bridge stopped.
+- TCP port 8765 has no LISTENING process.
+- All generated project files, assets, renders, logs, and outputs are under the E-drive project root.

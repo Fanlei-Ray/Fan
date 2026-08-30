@@ -1,0 +1,518 @@
+{
+  "schema": "native_pptx_enhancement_validation.v1",
+  "status": "passed-with-advisories",
+  "phase": "postflight",
+  "plan_status": "confirmed",
+  "enabled_modules": [
+    "notes"
+  ],
+  "slide_count": 10,
+  "applied": {
+    "notes": 10,
+    "audio": 0,
+    "transition_only_slides": 0,
+    "automatic_advance": false
+  },
+  "transition_scope": {
+    "global_enabled": false,
+    "global_policy": "preserve",
+    "apply_without_audio": false,
+    "selected_slides": []
+  },
+  "source_delivery_check": {
+    "schema": "ppt-master.pptx-delivery-check.v1",
+    "status": "passed-with-advisories",
+    "file": {
+      "path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\upper_computer\\report\\native_notes_project\\sources\\OpenArm_上位机课程项目汇报.pptx",
+      "bytes": 476020
+    },
+    "package": {
+      "zip_integrity": "passed",
+      "corrupt_member": null,
+      "duplicate_parts": [],
+      "canonical_part_collisions": [],
+      "parts": {
+        "entries": 61,
+        "unique": 61,
+        "slides": 10,
+        "notes": 10,
+        "masters": 1,
+        "layouts": 1,
+        "media": 4
+      },
+      "relationships": {
+        "problems": []
+      }
+    },
+    "slides": {
+      "count": 10,
+      "hidden_count": 0,
+      "hidden": []
+    },
+    "fonts": {
+      "theme": {
+        "title": {
+          "latin": "Calibri Light",
+          "ea": "Calibri Light",
+          "cs": "Calibri Light"
+        },
+        "body": {
+          "latin": "Calibri",
+          "ea": "Calibri",
+          "cs": "Calibri"
+        }
+      },
+      "declared": {
+        "latin": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 3
+          },
+          {
+            "value": "Calibri Light",
+            "count": 3
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ],
+        "ea": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 3
+          },
+          {
+            "value": "Calibri Light",
+            "count": 3
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ],
+        "cs": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 3
+          },
+          {
+            "value": "Calibri Light",
+            "count": 3
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ]
+      },
+      "embedded_parts": [],
+      "portability_advisory_faces": [
+        "Calibri Light"
+      ]
+    },
+    "media": {
+      "embedded_count": 4,
+      "external_count": 0,
+      "embedded": [
+        {
+          "part": "ppt/media/image.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 235278,
+          "compressed_bytes": 229180,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image2.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 112477,
+          "compressed_bytes": 111157,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image3.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 62663,
+          "compressed_bytes": 52706,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image4.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 28480,
+          "compressed_bytes": 26951,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        }
+      ],
+      "external": [],
+      "uncompressed_bytes": 438898,
+      "archive_compressed_bytes": 419994,
+      "share_of_archive": 0.882303,
+      "share_of_uncompressed_parts": 0.507422,
+      "top_contributors": [
+        {
+          "part": "ppt/media/image.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 235278,
+          "compressed_bytes": 229180,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image2.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 112477,
+          "compressed_bytes": 111157,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image3.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 62663,
+          "compressed_bytes": 52706,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image4.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 28480,
+          "compressed_bytes": 26951,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        }
+      ]
+    },
+    "motion": {
+      "transitions": {
+        "carrier_slide_count": 0,
+        "visual_effect_slide_count": 0,
+        "timed_advance_slide_count": 0,
+        "carrier_slides": [],
+        "visual_effect_slides": [],
+        "timed_advance_slides": [],
+        "effects": {}
+      },
+      "object_animations": {
+        "timing_slide_count": 0,
+        "object_animation_slide_count": 0,
+        "audio_timing_slide_count": 0,
+        "timing_slides": [],
+        "object_animation_slides": [],
+        "audio_timing_slides": []
+      }
+    },
+    "errors": [],
+    "advisories": [
+      {
+        "code": "font_portability",
+        "message": "Some fonts declared or referenced by the presentation are outside the common Office/OS portability set; target-system availability was not verified.",
+        "faces": [
+          "Calibri Light"
+        ]
+      }
+    ]
+  },
+  "output_delivery_check": {
+    "schema": "ppt-master.pptx-delivery-check.v1",
+    "status": "passed-with-advisories",
+    "file": {
+      "path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\upper_computer\\report\\native_notes_project\\exports\\OpenArm_上位机课程项目汇报_enhanced.pptx",
+      "bytes": 474791
+    },
+    "package": {
+      "zip_integrity": "passed",
+      "corrupt_member": null,
+      "duplicate_parts": [],
+      "canonical_part_collisions": [],
+      "parts": {
+        "entries": 62,
+        "unique": 62,
+        "slides": 10,
+        "notes": 10,
+        "masters": 1,
+        "layouts": 1,
+        "media": 4
+      },
+      "relationships": {
+        "problems": []
+      }
+    },
+    "slides": {
+      "count": 10,
+      "hidden_count": 0,
+      "hidden": []
+    },
+    "fonts": {
+      "theme": {
+        "title": {
+          "latin": "Calibri Light",
+          "ea": "Calibri Light",
+          "cs": "Calibri Light"
+        },
+        "body": {
+          "latin": "Calibri",
+          "ea": "Calibri",
+          "cs": "Calibri"
+        }
+      },
+      "declared": {
+        "latin": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 4
+          },
+          {
+            "value": "Calibri Light",
+            "count": 4
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ],
+        "ea": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 4
+          },
+          {
+            "value": "Calibri Light",
+            "count": 4
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ],
+        "cs": [
+          {
+            "value": "Microsoft YaHei",
+            "count": 358
+          },
+          {
+            "value": "+mn-lt",
+            "count": 18
+          },
+          {
+            "value": "Calibri",
+            "count": 4
+          },
+          {
+            "value": "Calibri Light",
+            "count": 4
+          },
+          {
+            "value": "+mj-lt",
+            "count": 1
+          }
+        ]
+      },
+      "embedded_parts": [],
+      "portability_advisory_faces": [
+        "Calibri Light"
+      ]
+    },
+    "media": {
+      "embedded_count": 4,
+      "external_count": 0,
+      "embedded": [
+        {
+          "part": "ppt/media/image.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 235278,
+          "compressed_bytes": 226206,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image2.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 112477,
+          "compressed_bytes": 110998,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image3.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 62663,
+          "compressed_bytes": 51173,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image4.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 28480,
+          "compressed_bytes": 26834,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        }
+      ],
+      "external": [],
+      "uncompressed_bytes": 438898,
+      "archive_compressed_bytes": 415211,
+      "share_of_archive": 0.874513,
+      "share_of_uncompressed_parts": 0.50594,
+      "top_contributors": [
+        {
+          "part": "ppt/media/image.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 235278,
+          "compressed_bytes": 226206,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image2.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 112477,
+          "compressed_bytes": 110998,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image3.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 62663,
+          "compressed_bytes": 51173,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        },
+        {
+          "part": "ppt/media/image4.png",
+          "kind": "image",
+          "content_type": "image/png",
+          "bytes": 28480,
+          "compressed_bytes": 26834,
+          "reference_count": 1,
+          "relationship_types": [
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+          ]
+        }
+      ]
+    },
+    "motion": {
+      "transitions": {
+        "carrier_slide_count": 0,
+        "visual_effect_slide_count": 0,
+        "timed_advance_slide_count": 0,
+        "carrier_slides": [],
+        "visual_effect_slides": [],
+        "timed_advance_slides": [],
+        "effects": {}
+      },
+      "object_animations": {
+        "timing_slide_count": 0,
+        "object_animation_slide_count": 0,
+        "audio_timing_slide_count": 0,
+        "timing_slides": [],
+        "object_animation_slides": [],
+        "audio_timing_slides": []
+      }
+    },
+    "errors": [],
+    "advisories": [
+      {
+        "code": "font_portability",
+        "message": "Some fonts declared or referenced by the presentation are outside the common Office/OS portability set; target-system availability was not verified.",
+        "faces": [
+          "Calibri Light"
+        ]
+      }
+    ]
+  },
+  "source_delivery_policy": "preserve-baseline",
+  "introduced_delivery_errors": []
+}

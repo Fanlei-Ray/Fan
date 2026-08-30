@@ -1,0 +1,10 @@
+01 Cover: project identity and stage conclusion; OpenArm model hero.
+02 Responsibility: three workstreams—UI/workflow, adapters/protocols, safety/evidence.
+03 Workload: measured source/test/mode figures and supporting deliverables.
+04 Architecture: three inputs converge on one message/safety/state layer; only simulation executes.
+05 Simulation demo: live camera and exact startup sequence; detection screenshot.
+06 Simulation evidence: V18.3 2/2, 51 distinct motion frames, 28 tests; process timeline.
+07 Real-side upper computer: vision monitor, reconnection, serial protocol/read-only tools; source screenshots.
+08 Real-side demo: observe/diagnose/read-only sequence with execution lock explained.
+09 Deployment blockers: calibration, firmware, joint mapping, hardware safety in a risk table.
+10 Conclusion and next gates: simulation ready; real deployment requires cross-team closure before write control.

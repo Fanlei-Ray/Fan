@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "ppt_to_md.py",
+  "conversion_type": "pptx",
+  "source": {
+    "path": "OpenArm_上位机课程项目汇报.pptx",
+    "name": "OpenArm_上位机课程项目汇报.pptx",
+    "suffix": ".pptx",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 476020
+  },
+  "outputs": {
+    "markdown": "OpenArm_上位机课程项目汇报.md",
+    "asset_dir": "OpenArm_上位机课程项目汇报_files",
+    "image_manifest": "OpenArm_上位机课程项目汇报_files/image_manifest.json",
+    "image_count": 4
+  },
+  "markdown": {
+    "line_count": 441,
+    "char_count": 5469,
+    "heading_count": 21,
+    "table_count": 0,
+    "image_ref_count": 4,
+    "link_count": 0
+  },
+  "warnings": []
+}
