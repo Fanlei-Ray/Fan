@@ -1,0 +1,103 @@
+<!--
+Simulation-only multi-object scene for the OpenArm upper-computer demo.
+The original v2/demo.xml remains unchanged as the V18.3 regression baseline.
+-->
+<mujoco model="openarm_bimanual multi object vision demo">
+  <visual>
+    <global offwidth="960" offheight="600"/>
+  </visual>
+
+  <asset>
+    <model name="cell" file="cell.xml"/>
+  </asset>
+  <worldbody>
+
+    <!-- V18.3 vision demo overhead camera. Camera looks downward along world -Z. -->
+    <camera name="vision_overhead" pos="0.55 0.00 1.80" xyaxes="1 0 0 0 1 0" fovy="45"/>
+
+    <!-- V18.3 visible camera marker for demo only: no collision, no physics. -->
+    <body name="vision_camera_marker" pos="0.55 0.00 1.80">
+        <geom name="vision_camera_marker_body"
+              type="box"
+              size="0.040 0.028 0.020"
+              rgba="0.05 0.05 0.05 1"
+              contype="0"
+              conaffinity="0"/>
+        <geom name="vision_camera_marker_lens"
+              type="cylinder"
+              pos="0 0 -0.028"
+              size="0.014 0.012"
+              rgba="0.00 0.00 0.00 1"
+              contype="0"
+              conaffinity="0"/>
+        <geom name="vision_camera_marker_view_axis"
+              type="capsule"
+              fromto="0 0 -0.040 0 0 -0.220"
+              size="0.003"
+              rgba="0.10 0.30 1.00 0.55"
+              contype="0"
+              conaffinity="0"/>
+    </body>
+
+    <attach model="cell" prefix=""/>
+
+    <!-- Four independently graspable objects. Their colors also provide a
+         deterministic rendered-RGB fallback when generic COCO weights do not
+         recognise simple MuJoCo geometry. -->
+    <body name="orange_cube" pos="0.516 0.050 1.05">
+      <freejoint/>
+      <geom name="orange_cube_geom" type="box" size="0.020 0.020 0.020"
+            rgba="1.0 0.4 0.0 1" mass="0.05" friction="1 0.5 0.01"
+            contype="1" conaffinity="1"/>
+    </body>
+
+    <body name="blue_part" pos="0.44 -0.075 1.05">
+      <freejoint/>
+      <geom name="blue_part_collision" type="box" size="0.020 0.020 0.020"
+            rgba="0.00 0.75 0.90 0.04" mass="0.05" friction="1 0.5 0.01"
+            contype="1" conaffinity="1"/>
+      <geom name="blue_part_geom" type="cylinder" size="0.019 0.020"
+            rgba="0.00 0.75 0.90 1" contype="0" conaffinity="0" mass="0"/>
+      <geom name="blue_part_hub" type="cylinder" pos="0 0 0.021" size="0.008 0.003"
+            rgba="0.30 0.95 1.0 1" contype="0" conaffinity="0" mass="0"/>
+    </body>
+
+    <body name="phone" pos="0.52 -0.075 1.05">
+      <freejoint/>
+      <geom name="phone_collision" type="box" size="0.020 0.020 0.020"
+            rgba="0.82 0.04 0.36 0.04" mass="0.05" friction="1 0.5 0.01"
+            contype="1" conaffinity="1"/>
+      <geom name="phone_body" type="box" size="0.030 0.018 0.010"
+            rgba="0.82 0.04 0.36 1" contype="0" conaffinity="0" mass="0"/>
+      <geom name="phone_screen" type="box" pos="0 0 0.0105" size="0.026 0.014 0.001"
+            rgba="0.08 0.08 0.11 1" contype="0" conaffinity="0" mass="0"/>
+    </body>
+
+    <body name="mouse" pos="0.60 -0.075 1.05">
+      <freejoint/>
+      <geom name="mouse_collision" type="box" size="0.020 0.020 0.020"
+            rgba="0.06 0.78 0.22 0.04" mass="0.05" friction="1 0.5 0.01"
+            contype="1" conaffinity="1"/>
+      <geom name="mouse_body" type="ellipsoid" size="0.026 0.020 0.014"
+            rgba="0.06 0.78 0.22 1" contype="0" conaffinity="0" mass="0"/>
+      <geom name="mouse_wheel" type="cylinder" pos="-0.006 0 0.014" quat="0.7071 0.7071 0 0"
+            size="0.004 0.005" rgba="0.08 0.08 0.08 1"
+            contype="0" conaffinity="0" mass="0"/>
+    </body>
+
+    <!-- The requested black receiving frame. It is slightly wider than the
+         V18.3 frame so the phone-shaped part can be placed without clipping. -->
+    <body name="black_frame" pos="0.47 0.16 1.005">
+      <geom name="black_frame_floor" type="box" pos="0 0 0.005" size="0.085 0.080 0.005"
+            rgba="0.06 0.06 0.06 1" contype="1" conaffinity="1"/>
+      <geom name="black_frame_xp" type="box" pos="0.080 0 0.025" size="0.005 0.080 0.025"
+            rgba="0.03 0.03 0.03 1" contype="1" conaffinity="1"/>
+      <geom name="black_frame_xn" type="box" pos="-0.080 0 0.025" size="0.005 0.080 0.025"
+            rgba="0.03 0.03 0.03 1" contype="1" conaffinity="1"/>
+      <geom name="black_frame_yp" type="box" pos="0 0.075 0.025" size="0.075 0.005 0.025"
+            rgba="0.03 0.03 0.03 1" contype="1" conaffinity="1"/>
+      <geom name="black_frame_yn" type="box" pos="0 -0.075 0.025" size="0.075 0.005 0.025"
+            rgba="0.03 0.03 0.03 1" contype="1" conaffinity="1"/>
+    </body>
+  </worldbody>
+</mujoco>
