@@ -1,0 +1,69 @@
+timestamp,task_id,state,selected_arm,contact_id,geom1,geom2,body1,body2,dist,category,dangerous,message
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,0,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,1,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,2,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737324e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,3,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737324e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,4,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661407e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,5,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661392e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,6,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661103e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,7,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.8310340016610875e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,8,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543446e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,9,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.8310340015434185e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,10,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543175e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,11,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.8310340015431475e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,12,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,13,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,14,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,15,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,SAFETY_CHECK,right,16,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,pre-action collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,0,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,1,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,2,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737324e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,3,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737324e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,4,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661407e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,5,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661392e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,6,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661103e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,7,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.8310340016610875e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,8,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543446e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,9,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.8310340015434185e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,10,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543175e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,11,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.8310340015431475e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,12,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,13,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,14,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,15,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PLAN_PATH,right,16,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.386410237404291e-06,OTHER,False,path planning collision snapshot
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,0,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,1,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737727e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,2,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737324e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,3,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737316e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,4,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661407e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,5,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661389e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,6,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661043e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,7,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661025e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,8,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543446e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,9,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543419e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,10,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543117e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,11,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543091e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,12,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.369495866030482e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,13,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.369495866030482e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,14,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.369495866030482e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,15,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.369495866030482e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,PARK_INACTIVE_ARM,right,16,ycb_cup_collision,cell_table_col,ycb_cup,world,-5.369495866030482e-06,OTHER,False,after inactive arm park
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,0,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737735e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,1,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737731e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,2,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.8310340017373865e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,3,cell_table_col,ycb_bottle_collision,world,ycb_bottle,-6.831034001737383e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,4,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661407e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,5,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001661389e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,6,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001660869e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,7,cell_table_col,ycb_banana_collision,world,ycb_banana,-6.831034001660851e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,8,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543446e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,9,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.8310340015434406e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,10,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.831034001543095e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,11,cell_table_col,ycb_apple_collision,world,ycb_apple,-6.83103400154309e-06,OTHER,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,12,,ee_base_link_right_collision_00,black_frame,openarm_right_ee_base_link,-6.423848835835924e-05,ROBOT_TASK_OBJECT,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,13,,ee_base_link_right_collision_00,black_frame,openarm_right_ee_base_link,-6.423848835835924e-05,ROBOT_TASK_OBJECT,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,14,ycb_cup_collision,black_frame_floor,ycb_cup,black_frame,-0.0019286311695837133,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,15,ycb_cup_collision,black_frame_floor,ycb_cup,black_frame,-0.0019286311695837133,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-08-30 00:58:23,shuffle-L4-ycb_cup,EXECUTE_PICK_PLACE,right,16,ycb_cup_collision,black_frame_floor,ycb_cup,black_frame,-0.0019286311695837133,TASK_OBJECT_CONTACT,False,post-action collision snapshot

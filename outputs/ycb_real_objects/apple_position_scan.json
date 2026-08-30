@@ -1,0 +1,35 @@
+[
+  {
+    "object": "ycb_apple",
+    "x": 0.55,
+    "y": 0.0,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.1368325860919144,
+    "xy_to_frame_m": 0.035995449889619696,
+    "z_margin_m": 0.04793764265529754
+  },
+  {
+    "object": "ycb_apple",
+    "x": 0.55,
+    "y": 0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.08214973874062226,
+    "xy_to_frame_m": 0.02123089303420688,
+    "z_margin_m": 0.009815876482480723
+  },
+  {
+    "object": "ycb_apple",
+    "x": 0.57,
+    "y": 0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.06821701055166707,
+    "xy_to_frame_m": 0.24863615975691178,
+    "z_margin_m": 0.018993168965998564
+  }
+]

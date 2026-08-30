@@ -1,0 +1,3 @@
+order,task_id,object_name,target_name,cube_x,cube_y,cube_z,planned_arm,inactive_arm,planned_states,description
+1,task_left_001,orange_cube,black_frame,0.516,0.0,1.05,left,right,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,左侧/中间区域任务，planner 应选择左臂
+2,task_right_001,orange_cube,black_frame,0.516,0.05,1.05,right,left,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,右侧区域任务，planner 应选择右臂

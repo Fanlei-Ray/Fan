@@ -1,0 +1,30 @@
+OpenArm 双臂任务规划 Demo V11 运行手册
+
+推荐现场命令：
+  cd /d E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master
+  python scripts\openarm_bimanual_task_planner_demo_v11_collision_detection.py
+
+恢复逻辑演示命令：
+  python scripts\openarm_bimanual_task_planner_demo_v11_collision_detection.py --simulate-recovery
+
+队列演示命令：
+  python scripts\openarm_bimanual_task_planner_demo_v11_collision_detection.py --queue-demo
+
+无 viewer 快速测试：
+  python scripts\openarm_bimanual_task_planner_demo_v11_collision_detection.py --no-viewer
+
+输出文件：
+  task log:      E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\task_log_v13_hybrid.csv
+  execution plan:E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\execution_plan_v13_hybrid.csv
+  path plan:     E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\path_plan_v13_hybrid.csv
+  collision log: E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\collision_log_v13_hybrid.csv
+  summary json:  E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\task_summary_v13_hybrid.json
+  report:        E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\presentation_report_v13_hybrid.md
+  state machine: E:\FL_Personal\openarm_mujoco-master\openarm_mujoco-master\outputs\bimanual_task_planner_demo\state_machine_v13_hybrid.mmd
+
+现场讲解顺序：
+  1. 说明这是一个单一上层 planner，不是左右手分别运行脚本。
+  2. 说明 planner 根据 cube_y 自动选择 left/right arm。
+  3. 指出 active arm 执行任务前，inactive arm 进入 PARK_INACTIVE_ARM 状态。
+  4. 展示终端状态流：INIT -> PERCEIVE -> SELECT_ARM -> SAFETY_CHECK -> PARK_INACTIVE_ARM -> EXECUTE_PICK_PLACE -> VERIFY -> DONE。
+  5. 展示最终 total place_success。

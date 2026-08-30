@@ -1,0 +1,17 @@
+timestamp,task_id,state,selected_arm,cube_x,cube_y,cube_z,pick_success,place_success,lift_delta,xy_dist,z_margin,message
+2026-06-25 15:12:46,task_left_001,INIT,,0.516,0.0,1.05,,,,,,task init
+2026-06-25 15:12:46,task_left_001,PERCEIVE,,0.516,0.0,1.05,,,,,,object pose acquired
+2026-06-25 15:12:46,task_left_001,SELECT_ARM,left,0.516,0.0,1.05,,,,,,arm selected
+2026-06-25 15:12:47,task_left_001,PARK_INACTIVE_ARM,left,0.516,0.0,1.05,,,,,,inactive arm parked / safe
+2026-06-25 15:12:47,task_left_001,EXECUTE_PICK_PLACE,left,0.516,0.0,1.05,,,,,,start pick_and_place
+2026-06-25 15:14:20,task_left_001,EXECUTE_PICK_PLACE,left,0.516,0.0,1.05,True,True,0.024997076148178587,0.023085237366757754,0.029892244579782457,pick_and_place finished
+2026-06-25 15:14:20,task_left_001,VERIFY,left,0.516,0.0,1.05,True,True,0.024997076148178587,0.023085237366757754,0.029892244579782457,success
+2026-06-25 15:14:20,task_left_001,DONE,left,0.516,0.0,1.05,True,True,0.024997076148178587,0.023085237366757754,0.029892244579782457,task done
+2026-06-25 15:14:27,task_right_001,INIT,,0.516,0.05,1.05,,,,,,task init
+2026-06-25 15:14:27,task_right_001,PERCEIVE,,0.516,0.05,1.05,,,,,,object pose acquired
+2026-06-25 15:14:27,task_right_001,SELECT_ARM,right,0.516,0.05,1.05,,,,,,arm selected
+2026-06-25 15:14:28,task_right_001,PARK_INACTIVE_ARM,right,0.516,0.05,1.05,,,,,,inactive arm parked / safe
+2026-06-25 15:14:28,task_right_001,EXECUTE_PICK_PLACE,right,0.516,0.05,1.05,,,,,,start pick_and_place
+2026-06-25 15:15:55,task_right_001,EXECUTE_PICK_PLACE,right,0.516,0.05,1.05,True,True,0.10032494181385498,0.02436180286551195,0.029892244579782457,pick_and_place finished
+2026-06-25 15:15:55,task_right_001,VERIFY,right,0.516,0.05,1.05,True,True,0.10032494181385498,0.02436180286551195,0.029892244579782457,success
+2026-06-25 15:15:55,task_right_001,DONE,right,0.516,0.05,1.05,True,True,0.10032494181385498,0.02436180286551195,0.029892244579782457,task done

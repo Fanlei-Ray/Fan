@@ -1,0 +1,110 @@
+[
+  {
+    "object": "ycb_bottle",
+    "x": 0.58,
+    "y": 0.0,
+    "grasp_z": 0.075,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.10698264351594378,
+    "xy_to_frame_m": 0.04779569098790448,
+    "z_margin_m": 0.027862823783124435,
+    "final_xyz_m": [
+      0.502606995808531,
+      0.19494584240440765,
+      1.0328628237831243
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.03260699580853099,
+      0.03494584240440765
+    ]
+  },
+  {
+    "object": "ycb_bottle",
+    "x": 0.58,
+    "y": 0.03,
+    "grasp_z": 0.075,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.10406127430415091,
+    "xy_to_frame_m": 0.04853416929388328,
+    "z_margin_m": 0.027862823783124435,
+    "final_xyz_m": [
+      0.5003467032540453,
+      0.19787668399765532,
+      1.0328628237831243
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.030346703254045315,
+      0.037876683997655314
+    ]
+  },
+  {
+    "object": "ycb_bottle",
+    "x": 0.55,
+    "y": 0.05,
+    "grasp_z": 0.075,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.07898111680466502,
+    "xy_to_frame_m": 0.03126052763319673,
+    "z_margin_m": 0.00942879683186404,
+    "final_xyz_m": [
+      0.4791008858387227,
+      0.13009357151286044,
+      1.014428796831864
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.009100885838722705,
+      -0.029906428487139564
+    ]
+  },
+  {
+    "object": "ycb_bottle",
+    "x": 0.55,
+    "y": 0.08,
+    "grasp_z": 0.075,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.1267569798003132,
+    "xy_to_frame_m": 0.06039072248046302,
+    "z_margin_m": 0.027862823783124435,
+    "final_xyz_m": [
+      0.4759530540323186,
+      0.09990340684031584,
+      1.0328628237831243
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.005953054032318605,
+      -0.06009659315968416
+    ]
+  }
+]

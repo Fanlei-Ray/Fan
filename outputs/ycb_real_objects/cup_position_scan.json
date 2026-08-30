@@ -1,0 +1,24 @@
+[
+  {
+    "object": "ycb_cup",
+    "x": 0.48,
+    "y": -0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.08553138433505691,
+    "xy_to_frame_m": 0.026190391612173732,
+    "z_margin_m": 0.010009141150539858
+  },
+  {
+    "object": "ycb_cup",
+    "x": 0.48,
+    "y": 0.02,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.0874635595086557,
+    "xy_to_frame_m": 0.029770245714606423,
+    "z_margin_m": 0.010100541735764246
+  }
+]

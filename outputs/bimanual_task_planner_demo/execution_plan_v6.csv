@@ -1,0 +1,5 @@
+order,task_id,object_name,target_name,cube_x,cube_y,cube_z,planned_arm,inactive_arm,planned_states,description
+1,queue_left_001,orange_cube,black_frame,0.516,0.0,1.05,left,right,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,队列任务 1：左臂 pick-and-place
+2,queue_right_001,orange_cube,black_frame,0.516,0.05,1.05,right,left,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,队列任务 2：右臂 pick-and-place
+3,queue_left_002,orange_cube,black_frame,0.516,0.0,1.05,left,right,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,队列任务 3：左臂再次执行
+4,queue_right_002,orange_cube,black_frame,0.516,0.05,1.05,right,left,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,队列任务 4：右臂再次执行

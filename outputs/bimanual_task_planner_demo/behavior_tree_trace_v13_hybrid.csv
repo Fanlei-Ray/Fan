@@ -1,0 +1,21 @@
+timestamp,task_id,node_name,node_type,status,message
+2026-06-25 21:23:44,task_left_001,InitTask,ActionNode,SUCCESS,
+2026-06-25 21:23:44,task_left_001,PerceiveObject,ActionNode,SUCCESS,cube_pos=[0.516 0.    1.05 ]
+2026-06-25 21:23:44,task_left_001,SelectArm,ActionNode,SUCCESS,selected_arm=left
+2026-06-25 21:23:44,task_left_001,SafetyCheck,ActionNode,SUCCESS,workspace_ok=True
+2026-06-25 21:23:44,task_left_001,PlanPath,ActionNode,SUCCESS,waypoints=8
+2026-06-25 21:23:44,task_left_001,PathSafe,ConditionNode,SUCCESS,path_safe=True
+2026-06-25 21:23:45,task_left_001,ParkInactiveArm,ActionNode,SUCCESS,inactive_arm=right
+2026-06-25 21:25:23,task_left_001,PickAndPlaceWithRecovery,ActionNode,SUCCESS,"pick=True, place=True"
+2026-06-25 21:25:23,task_left_001,VerifySuccess,ConditionNode,SUCCESS,place_success=True
+2026-06-25 21:25:23,task_left_001,HybridPickPlaceTaskSequence,SequenceNode,SUCCESS,all children succeeded
+2026-06-25 21:25:30,task_right_001,InitTask,ActionNode,SUCCESS,
+2026-06-25 21:25:30,task_right_001,PerceiveObject,ActionNode,SUCCESS,cube_pos=[0.516 0.05  1.05 ]
+2026-06-25 21:25:30,task_right_001,SelectArm,ActionNode,SUCCESS,selected_arm=right
+2026-06-25 21:25:30,task_right_001,SafetyCheck,ActionNode,SUCCESS,workspace_ok=True
+2026-06-25 21:25:30,task_right_001,PlanPath,ActionNode,SUCCESS,waypoints=8
+2026-06-25 21:25:30,task_right_001,PathSafe,ConditionNode,SUCCESS,path_safe=True
+2026-06-25 21:25:32,task_right_001,ParkInactiveArm,ActionNode,SUCCESS,inactive_arm=left
+2026-06-25 21:27:22,task_right_001,PickAndPlaceWithRecovery,ActionNode,SUCCESS,"pick=True, place=True"
+2026-06-25 21:27:22,task_right_001,VerifySuccess,ConditionNode,SUCCESS,place_success=True
+2026-06-25 21:27:22,task_right_001,HybridPickPlaceTaskSequence,SequenceNode,SUCCESS,all children succeeded

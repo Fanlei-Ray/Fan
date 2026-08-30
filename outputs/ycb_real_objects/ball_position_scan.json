@@ -1,0 +1,68 @@
+[
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.49,
+    "y": 0.0,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.10786636238040126,
+    "xy_to_frame_m": 0.04198391133484415,
+    "z_margin_m": 0.028805617858315813
+  },
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.52,
+    "y": 0.0,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.10631292302774065,
+    "xy_to_frame_m": 0.05625724987613434,
+    "z_margin_m": 0.028600448347924745
+  },
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.55,
+    "y": 0.0,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.09214101233851246,
+    "xy_to_frame_m": 0.19544476816227319,
+    "z_margin_m": 0.01899316896599834
+  },
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.49,
+    "y": -0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.0884642365250563,
+    "xy_to_frame_m": 0.01979923504499095,
+    "z_margin_m": 0.009815876482480723
+  },
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.52,
+    "y": -0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.08703100879430958,
+    "xy_to_frame_m": 0.021251084150019892,
+    "z_margin_m": 0.02881587648248063
+  },
+  {
+    "object": "ycb_sports_ball",
+    "x": 0.55,
+    "y": -0.03,
+    "grasp_z": 0.055,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.11546916157769815,
+    "xy_to_frame_m": 0.05493119408438142,
+    "z_margin_m": 0.047815876482480535
+  }
+]

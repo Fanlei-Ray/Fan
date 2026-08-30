@@ -1,0 +1,95 @@
+timestamp,task_id,state,selected_arm,contact_id,geom1,geom2,body1,body2,dist,category,dangerous,message
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,0,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,1,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,2,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.02787802431009878,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,3,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.02787802431009878,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,4,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.027870069774271422,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,5,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.027870069774271422,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,6,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,7,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,8,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,9,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,10,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,11,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,12,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,13,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,14,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,15,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,16,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,17,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,18,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,19,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,20,finger_inner_right_collision_00,finger_outer_right_collision_00,openarm_right_ee_inner_finger,openarm_right_ee_outer_finger,-3.275727633647859e-06,ROBOT_SELF_OR_INTERNAL,False,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,SAFETY_CHECK,left,21,finger_inner_right_collision_00,finger_outer_right_collision_00,openarm_right_ee_inner_finger,openarm_right_ee_outer_finger,-3.275727633647859e-06,ROBOT_SELF_OR_INTERNAL,False,pre-action collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,0,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,1,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,2,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.02787802431009878,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,3,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.02787802431009878,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,4,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.027870069774271422,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,5,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.027870069774271422,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,6,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,7,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,8,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,9,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.027838533886471842,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,10,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,11,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,12,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.02787802431009878,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,13,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,14,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,15,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,16,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.02787006977427142,ROBOT_ENV,True,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,17,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,18,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,19,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-3.2757276336478676e-06,ROBOT_SELF_OR_INTERNAL,False,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,20,finger_inner_right_collision_00,finger_outer_right_collision_00,openarm_right_ee_inner_finger,openarm_right_ee_outer_finger,-3.275727633647859e-06,ROBOT_SELF_OR_INTERNAL,False,path planning collision snapshot
+2026-06-25 17:26:06,task_left_001,PLAN_PATH,left,21,finger_inner_right_collision_00,finger_outer_right_collision_00,openarm_right_ee_inner_finger,openarm_right_ee_outer_finger,-3.275727633647859e-06,ROBOT_SELF_OR_INTERNAL,False,path planning collision snapshot
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,0,cell_table_col,link4_left_collision_00,world,openarm_left_link4,-0.005070559895353211,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,1,cell_table_col,link4_left_collision_00,world,openarm_left_link4,-0.005070559895353211,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,2,cell_table_col,link4_left_collision_00,world,openarm_left_link4,-0.005070559895353211,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,3,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.004384145220787783,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,4,cell_table_col,link5_left_collision_00,world,openarm_left_link5,-0.004384145220787783,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,5,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.004401672932109579,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,6,cell_table_col,link5_left_collision_01,world,openarm_left_link5,-0.004401672932109579,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,7,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.004423133457566842,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,8,cell_table_col,link5_left_collision_02,world,openarm_left_link5,-0.004423133457566842,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,9,cell_table_col,link4_right_collision_00,world,openarm_right_link4,-0.0050965530142468305,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,10,cell_table_col,link4_right_collision_00,world,openarm_right_link4,-0.0050965530142468305,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,11,cell_table_col,link5_right_collision_00,world,openarm_right_link5,-0.004382152609623048,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,12,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.004426826746033895,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,13,cell_table_col,link5_right_collision_01,world,openarm_right_link5,-0.004426826746033895,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,14,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.004439600073940175,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,15,cell_table_col,link5_right_collision_02,world,openarm_right_link5,-0.004439600073940175,ROBOT_ENV,True,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,16,cell_table_col,,world,orange_cube,-6.831044043621726e-06,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,17,cell_table_col,,world,orange_cube,-6.831044043621061e-06,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,18,cell_table_col,,world,orange_cube,-6.831044043620665e-06,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,19,cell_table_col,,world,orange_cube,-6.83104404362e-06,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,20,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-8.558611337520343e-05,ROBOT_SELF_OR_INTERNAL,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,21,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-8.558611337520343e-05,ROBOT_SELF_OR_INTERNAL,False,after inactive arm park
+2026-06-25 17:26:07,task_left_001,PARK_INACTIVE_ARM,left,22,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-8.558611337520343e-05,ROBOT_SELF_OR_INTERNAL,False,after inactive arm park
+2026-06-25 17:27:44,task_left_001,EXECUTE_PICK_PLACE,left,0,,finger_inner_left_collision_01,black_frame,openarm_left_ee_inner_finger,-2.4846068778490216e-05,ROBOT_TASK_OBJECT,False,post-action collision snapshot
+2026-06-25 17:27:44,task_left_001,EXECUTE_PICK_PLACE,left,1,,,orange_cube,black_frame,-0.00010775542021741052,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:27:44,task_left_001,EXECUTE_PICK_PLACE,left,2,,,orange_cube,black_frame,-0.00010775542021740993,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:27:44,task_left_001,EXECUTE_PICK_PLACE,left,3,,,orange_cube,black_frame,-0.00010775542021740956,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:27:44,task_left_001,EXECUTE_PICK_PLACE,left,4,,,orange_cube,black_frame,-0.00010775542021740897,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:27:52,task_right_001,SAFETY_CHECK,right,0,,finger_inner_left_collision_01,black_frame,openarm_left_ee_inner_finger,-2.433628156553796e-05,ROBOT_TASK_OBJECT,False,pre-action collision snapshot
+2026-06-25 17:27:52,task_right_001,SAFETY_CHECK,right,1,,,orange_cube,black_frame,-0.00010775542021741052,TASK_OBJECT_CONTACT,False,pre-action collision snapshot
+2026-06-25 17:27:52,task_right_001,SAFETY_CHECK,right,2,,,orange_cube,black_frame,-0.00010775542021741048,TASK_OBJECT_CONTACT,False,pre-action collision snapshot
+2026-06-25 17:27:52,task_right_001,SAFETY_CHECK,right,3,,,orange_cube,black_frame,-0.00010775542021740836,TASK_OBJECT_CONTACT,False,pre-action collision snapshot
+2026-06-25 17:27:52,task_right_001,SAFETY_CHECK,right,4,,,orange_cube,black_frame,-0.00010775542021740832,TASK_OBJECT_CONTACT,False,pre-action collision snapshot
+2026-06-25 17:27:52,task_right_001,PLAN_PATH,right,0,,finger_inner_left_collision_01,black_frame,openarm_left_ee_inner_finger,-2.433628156553796e-05,ROBOT_TASK_OBJECT,False,path planning collision snapshot
+2026-06-25 17:27:52,task_right_001,PLAN_PATH,right,1,,,orange_cube,black_frame,-0.00010775542021741052,TASK_OBJECT_CONTACT,False,path planning collision snapshot
+2026-06-25 17:27:52,task_right_001,PLAN_PATH,right,2,,,orange_cube,black_frame,-0.00010775542021741048,TASK_OBJECT_CONTACT,False,path planning collision snapshot
+2026-06-25 17:27:52,task_right_001,PLAN_PATH,right,3,,,orange_cube,black_frame,-0.00010775542021740836,TASK_OBJECT_CONTACT,False,path planning collision snapshot
+2026-06-25 17:27:52,task_right_001,PLAN_PATH,right,4,,,orange_cube,black_frame,-0.00010775542021740832,TASK_OBJECT_CONTACT,False,path planning collision snapshot
+2026-06-25 17:27:53,task_right_001,PARK_INACTIVE_ARM,right,0,,,orange_cube,black_frame,-0.00010775542021741052,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:27:53,task_right_001,PARK_INACTIVE_ARM,right,1,,,orange_cube,black_frame,-0.00010775542021740925,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:27:53,task_right_001,PARK_INACTIVE_ARM,right,2,,,orange_cube,black_frame,-0.00010775542021740998,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:27:53,task_right_001,PARK_INACTIVE_ARM,right,3,,,orange_cube,black_frame,-0.00010775542021740871,TASK_OBJECT_CONTACT,False,after inactive arm park
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,0,ee_base_link_left_collision_00,ee_base_link_right_collision_00,openarm_left_ee_base_link,openarm_right_ee_base_link,-3.015389149070378e-07,ROBOT_ROBOT,True,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,1,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-8.622035998801148e-05,ROBOT_SELF_OR_INTERNAL,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,2,finger_inner_left_collision_00,finger_outer_left_collision_00,openarm_left_ee_inner_finger,openarm_left_ee_outer_finger,-8.622035998801148e-05,ROBOT_SELF_OR_INTERNAL,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,3,,finger_inner_right_collision_00,black_frame,openarm_right_ee_inner_finger,-3.9795478710358274e-05,ROBOT_TASK_OBJECT,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,4,,,orange_cube,black_frame,-0.0001077554202174244,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,5,,,orange_cube,black_frame,-0.00010775542021742435,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,6,,,orange_cube,black_frame,-0.00010775542021742345,TASK_OBJECT_CONTACT,False,post-action collision snapshot
+2026-06-25 17:29:20,task_right_001,EXECUTE_PICK_PLACE,right,7,,,orange_cube,black_frame,-0.0001077554202174234,TASK_OBJECT_CONTACT,False,post-action collision snapshot

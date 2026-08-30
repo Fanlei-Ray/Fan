@@ -1,0 +1,210 @@
+[
+  {
+    "object_id": "sim-orange_cube",
+    "class_name": "orange_cube",
+    "source": "rgb_fallback:orange",
+    "final_state": "SUCCEEDED",
+    "selected_arm": "right",
+    "message": "right_rule_pick_place.run_trial",
+    "xy_to_frame_m": 0.03233534389215752,
+    "z_margin_m": 0.029892244579782457,
+    "detector_status": "rendered RGB multi-color detector",
+    "task_id": "regression-sim-orange_cube",
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.09558041244313764,
+    "minimum_interarm_tcp_distance_m": 0.30861406003408476,
+    "park_interarm_tcp_distance_m": 0.5635999004539133,
+    "final_dangerous_collision_count": 0,
+    "statuses": [
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "PLANNING",
+        "progress": 0.08,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "正在把 橙色方块 送入已验证安全取件位"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "PLANNING",
+        "progress": 0.15,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "已锁定 橙色方块；检测来源=rgb_fallback:orange；安全取件位=(0.516,0.050,1.050)"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "EXECUTING",
+        "progress": 0.45,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "右臂独占执行：抓取 橙色方块 并放入黑色框架"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "SUCCEEDED",
+        "progress": 1.0,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "right_rule_pick_place.run_trial"
+      }
+    ]
+  },
+  {
+    "object_id": "sim-blue_part",
+    "class_name": "blue_part",
+    "source": "rgb_fallback:cyan",
+    "final_state": "SUCCEEDED",
+    "selected_arm": "right",
+    "message": "right_rule_pick_place.run_trial",
+    "xy_to_frame_m": 0.0322987513268851,
+    "z_margin_m": 0.029892244579782457,
+    "detector_status": "rendered RGB multi-color detector",
+    "task_id": "regression-sim-blue_part",
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.0976644775636264,
+    "minimum_interarm_tcp_distance_m": 0.30860197774740983,
+    "park_interarm_tcp_distance_m": 0.5635965236467495,
+    "final_dangerous_collision_count": 0,
+    "statuses": [
+      {
+        "task_id": "regression-sim-blue_part",
+        "state": "PLANNING",
+        "progress": 0.08,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "正在把 蓝色圆柱零件 送入已验证安全取件位"
+      },
+      {
+        "task_id": "regression-sim-blue_part",
+        "state": "PLANNING",
+        "progress": 0.15,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "已锁定 蓝色圆柱零件；检测来源=rgb_fallback:cyan；安全取件位=(0.516,0.050,1.050)"
+      },
+      {
+        "task_id": "regression-sim-blue_part",
+        "state": "EXECUTING",
+        "progress": 0.45,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "右臂独占执行：抓取 蓝色圆柱零件 并放入黑色框架"
+      },
+      {
+        "task_id": "regression-sim-blue_part",
+        "state": "SUCCEEDED",
+        "progress": 1.0,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "right_rule_pick_place.run_trial"
+      }
+    ]
+  },
+  {
+    "object_id": "sim-phone",
+    "class_name": "phone",
+    "source": "rgb_fallback:magenta",
+    "final_state": "SUCCEEDED",
+    "selected_arm": "right",
+    "message": "right_rule_pick_place.run_trial",
+    "xy_to_frame_m": 0.040638364356946156,
+    "z_margin_m": 0.029892244579782457,
+    "detector_status": "rendered RGB multi-color detector",
+    "task_id": "regression-sim-phone",
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.09924858483155807,
+    "minimum_interarm_tcp_distance_m": 0.30860197774740983,
+    "park_interarm_tcp_distance_m": 0.5635965236467495,
+    "final_dangerous_collision_count": 0,
+    "statuses": [
+      {
+        "task_id": "regression-sim-phone",
+        "state": "PLANNING",
+        "progress": 0.08,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "正在把 手机模型 送入已验证安全取件位"
+      },
+      {
+        "task_id": "regression-sim-phone",
+        "state": "PLANNING",
+        "progress": 0.15,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "已锁定 手机模型；检测来源=rgb_fallback:magenta；安全取件位=(0.516,0.050,1.050)"
+      },
+      {
+        "task_id": "regression-sim-phone",
+        "state": "EXECUTING",
+        "progress": 0.45,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "右臂独占执行：抓取 手机模型 并放入黑色框架"
+      },
+      {
+        "task_id": "regression-sim-phone",
+        "state": "SUCCEEDED",
+        "progress": 1.0,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "right_rule_pick_place.run_trial"
+      }
+    ]
+  },
+  {
+    "object_id": "sim-mouse",
+    "class_name": "mouse",
+    "source": "rgb_fallback:green",
+    "final_state": "SUCCEEDED",
+    "selected_arm": "right",
+    "message": "right_rule_pick_place.run_trial",
+    "xy_to_frame_m": 0.03282213957958859,
+    "z_margin_m": 0.029892244579782457,
+    "detector_status": "rendered RGB multi-color detector",
+    "task_id": "regression-sim-mouse",
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.09949319154683,
+    "minimum_interarm_tcp_distance_m": 0.30860197774740983,
+    "park_interarm_tcp_distance_m": 0.5635965236467495,
+    "final_dangerous_collision_count": 0,
+    "statuses": [
+      {
+        "task_id": "regression-sim-mouse",
+        "state": "PLANNING",
+        "progress": 0.08,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "正在把 鼠标模型 送入已验证安全取件位"
+      },
+      {
+        "task_id": "regression-sim-mouse",
+        "state": "PLANNING",
+        "progress": 0.15,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "已锁定 鼠标模型；检测来源=rgb_fallback:green；安全取件位=(0.516,0.050,1.050)"
+      },
+      {
+        "task_id": "regression-sim-mouse",
+        "state": "EXECUTING",
+        "progress": 0.45,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "右臂独占执行：抓取 鼠标模型 并放入黑色框架"
+      },
+      {
+        "task_id": "regression-sim-mouse",
+        "state": "SUCCEEDED",
+        "progress": 1.0,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "right_rule_pick_place.run_trial"
+      }
+    ]
+  }
+]

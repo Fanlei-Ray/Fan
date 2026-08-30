@@ -1,0 +1,13 @@
+[
+  {
+    "object": "ycb_bottle",
+    "x": 0.58,
+    "y": 0.078,
+    "grasp_z": 0.065,
+    "pick_success": false,
+    "place_success": false,
+    "lift_delta_m": 0.003943558177304185,
+    "xy_to_frame_m": 0.14818697543268272,
+    "z_margin_m": -6.831034001342218e-06
+  }
+]

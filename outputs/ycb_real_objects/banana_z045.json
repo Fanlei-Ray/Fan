@@ -1,0 +1,29 @@
+[
+  {
+    "object": "ycb_banana",
+    "x": 0.49,
+    "y": 0.03,
+    "grasp_z": 0.045,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.07793102566991239,
+    "xy_to_frame_m": 0.016455351076176673,
+    "z_margin_m": 0.00965656035358009,
+    "final_xyz_m": [
+      0.4856398778490297,
+      0.15488406412201455,
+      1.01465656035358
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.015639877849029704,
+      -0.00511593587798545
+    ]
+  }
+]

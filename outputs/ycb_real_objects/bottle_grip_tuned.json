@@ -1,0 +1,29 @@
+[
+  {
+    "object": "ycb_bottle",
+    "x": 0.58,
+    "y": 0.078,
+    "grasp_z": 0.075,
+    "speed_scale": 1.0,
+    "post_release_retreat": true,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.058571131355359185,
+    "xy_to_frame_m": 0.12618827109898634,
+    "z_margin_m": 0.08908842598715094,
+    "final_xyz_m": [
+      0.5285740066701979,
+      0.048229854140066225,
+      1.0940884259871508
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.058574006670197964,
+      -0.11177014585993378
+    ]
+  }
+]

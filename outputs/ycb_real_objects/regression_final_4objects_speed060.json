@@ -1,0 +1,276 @@
+{
+  "scene": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\v2\\demo_ycb_real_objects.xml",
+  "strict_official_yolov8_seg": true,
+  "rgb_fallback": false,
+  "direct_scatter_execution": true,
+  "speed_scale": 0.6,
+  "results": [
+    {
+      "object_id": "sim-ycb_bottle",
+      "class_name": "bottle",
+      "confidence": 0.47438958287239075,
+      "source": "yolov8-seg:yolov8n-seg.pt:bottle",
+      "image_angle_rad": 1.6271626414384324,
+      "detected_xyz_m": [
+        0.5800038450463698,
+        0.04995220139882717,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.5799999999996712,
+        0.04999999999999084,
+        1.0049931689659983
+      ],
+      "detection_xy_error_m": 4.79530046745616e-05,
+      "no_loading_station_teleport": true,
+      "speed_scale": 0.6,
+      "wall_time_s": 0.6245092000026489,
+      "final_state": "SUCCEEDED",
+      "xy_to_frame_m": 0.045666515157243605,
+      "z_margin_m": 0.027862823783124435,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_bottle",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.0850077950697532,
+      "minimum_interarm_tcp_distance_m": 0.47110857510404147,
+      "park_interarm_tcp_distance_m": 0.5632139757796374,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_bottle",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 芥末瓶"
+        },
+        {
+          "task_id": "ycb-regression-ycb_bottle",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 芥末瓶；检测来源=yolov8-seg:yolov8n-seg.pt:bottle；视觉直接坐标=(0.580,0.050,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_bottle",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 芥末瓶 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_bottle",
+          "state": "SUCCEEDED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    },
+    {
+      "object_id": "sim-ycb_banana",
+      "class_name": "banana",
+      "confidence": 0.4170409142971039,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "image_angle_rad": 2.830619116189328,
+      "detected_xyz_m": [
+        0.49000163892062437,
+        0.029996019450049195,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.4900000000000352,
+        0.029999999999929822,
+        1.0049931689659983
+      ],
+      "detection_xy_error_m": 4.3047459913246035e-06,
+      "no_loading_station_teleport": true,
+      "speed_scale": 0.6,
+      "wall_time_s": 0.567474299998139,
+      "final_state": "SUCCEEDED",
+      "xy_to_frame_m": 0.008396218411529361,
+      "z_margin_m": 0.029656560353580996,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_banana",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07732103363143672,
+      "minimum_interarm_tcp_distance_m": 0.470185785789657,
+      "park_interarm_tcp_distance_m": 0.5632139757796374,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 香蕉"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 香蕉；检测来源=yolov8-seg:yolov8n-seg.pt:banana；视觉直接坐标=(0.490,0.030,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 香蕉 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "SUCCEEDED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    },
+    {
+      "object_id": "sim-ycb_apple",
+      "class_name": "apple",
+      "confidence": 0.5479510426521301,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "image_angle_rad": 2.3209729877895153,
+      "detected_xyz_m": [
+        0.5500035117627242,
+        8.718773339567304e-07,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.5499999999999989,
+        -2.3291614855537223e-15,
+        1.0049931689659986
+      ],
+      "detection_xy_error_m": 3.618376366302848e-06,
+      "no_loading_station_teleport": true,
+      "speed_scale": 0.6,
+      "wall_time_s": 0.6689970000006724,
+      "final_state": "SUCCEEDED",
+      "xy_to_frame_m": 0.023991831018385572,
+      "z_margin_m": 0.02881587648248063,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_apple",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.09950024218539189,
+      "minimum_interarm_tcp_distance_m": 0.47157058477146757,
+      "park_interarm_tcp_distance_m": 0.5632139757796374,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 苹果"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 苹果；检测来源=yolov8-seg:yolov8n-seg.pt:apple；视觉直接坐标=(0.550,0.000,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 苹果 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "SUCCEEDED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    },
+    {
+      "object_id": "sim-ycb_cup",
+      "class_name": "cup",
+      "confidence": 0.20593206584453583,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "image_angle_rad": 3.0885899511974904,
+      "detected_xyz_m": [
+        0.4500040404670355,
+        -0.0900018452465535,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.4500000075887084,
+        -0.09000000587791562,
+        1.0049944169367966
+      ],
+      "detection_xy_error_m": 4.432537037335485e-06,
+      "no_loading_station_teleport": true,
+      "speed_scale": 0.6,
+      "wall_time_s": 0.7929040000017267,
+      "final_state": "SUCCEEDED",
+      "xy_to_frame_m": 0.023745032495269647,
+      "z_margin_m": 0.009847224344520678,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.0740762918561153,
+      "minimum_interarm_tcp_distance_m": 0.46995040426472834,
+      "park_interarm_tcp_distance_m": 0.5632139757796374,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 杯子"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 杯子；检测来源=yolov8-seg:yolov8n-seg.pt:cup；视觉直接坐标=(0.450,-0.090,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 杯子 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "SUCCEEDED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    }
+  ],
+  "detected_count": 4,
+  "pick_success_count": 4,
+  "place_success_count": 4
+}

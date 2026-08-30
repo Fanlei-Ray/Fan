@@ -1,0 +1,56 @@
+[
+  {
+    "object": "ycb_apple",
+    "x": 0.56,
+    "y": -0.04,
+    "grasp_z": 0.055,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.06429110079663936,
+    "xy_to_frame_m": 0.3298688025357904,
+    "z_margin_m": 0.018993168965998564,
+    "final_xyz_m": [
+      0.6215083663366664,
+      -0.1330164531496324,
+      1.0239931689659985
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.15150836633666642,
+      -0.2930164531496324
+    ]
+  },
+  {
+    "object": "ycb_apple",
+    "x": 0.57,
+    "y": -0.04,
+    "grasp_z": 0.055,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": false,
+    "lift_delta_m": 0.0811676711792928,
+    "xy_to_frame_m": 0.39075174826840164,
+    "z_margin_m": 0.018993168965998564,
+    "final_xyz_m": [
+      0.7144725149922807,
+      -0.14482801411314117,
+      1.0239931689659985
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.24447251499228073,
+      -0.3048280141131412
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "object": "ycb_cup",
+    "x": 0.48,
+    "y": -0.04,
+    "grasp_z": 0.055,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.0855285439125244,
+    "xy_to_frame_m": 0.025011873312530037,
+    "z_margin_m": 0.00999643914872328,
+    "final_xyz_m": [
+      0.4709829749473383,
+      0.13500744977288318,
+      1.0149964391487232
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      0.0009829749473383442,
+      -0.024992550227116828
+    ]
+  },
+  {
+    "object": "ycb_cup",
+    "x": 0.47,
+    "y": -0.04,
+    "grasp_z": 0.055,
+    "speed_scale": 1.0,
+    "post_release_retreat": false,
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.08546561490200943,
+    "xy_to_frame_m": 0.024865318361633422,
+    "z_margin_m": 0.010027776093868512,
+    "final_xyz_m": [
+      0.46908986235232114,
+      0.13515134396616868,
+      1.0150277760938684
+    ],
+    "frame_xyz_m": [
+      0.47,
+      0.16,
+      1.005
+    ],
+    "final_minus_frame_xy_m": [
+      -0.0009101376476788325,
+      -0.024848656033831323
+    ]
+  }
+]

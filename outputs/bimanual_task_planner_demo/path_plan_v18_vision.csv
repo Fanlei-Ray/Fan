@@ -1,0 +1,9 @@
+timestamp,task_id,waypoint_id,arm,name,target_x,target_y,target_z,motion_type,safety_role,expected_state,safe,message
+2026-08-26 15:15:18,bridge-proven-v18-probe,1,right,APPROACH_HIGH,0.516,0.05,1.23,cartesian_waypoint,keep above object,approach,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,2,right,PREGRASP,0.51,0.030000000000000002,1.19,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,3,right,GRASP,0.51,0.030000000000000002,1.105,cartesian_waypoint,contact zone,grasp,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,4,right,LIFT,0.51,0.030000000000000002,1.225,vertical_lift,clear table/object,lift,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,5,right,TRANSFER_HIGH,0.493,0.1,1.27,transfer,avoid table and inactive arm,transfer,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,6,right,PREPLACE,0.47,0.15,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,7,right,PLACE,0.47,0.15,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-08-26 15:15:18,bridge-proven-v18-probe,8,right,RETREAT,0.47,0.15,1.205,vertical_retreat,leave target safely,retreat,True,ok

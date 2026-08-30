@@ -1,0 +1,50 @@
+{
+  "demo": "openarm_bimanual_task_planner_demo_v5",
+  "total_tasks": 4,
+  "success_count": 4,
+  "selector_rule": "right if cube_y >= 0.020, else left",
+  "log_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\task_log_v5.csv",
+  "plan_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\execution_plan_v5.csv",
+  "results": [
+    {
+      "task_id": "queue_left_001",
+      "selected_arm": "left",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.024997076148178587,
+      "xy_dist": 0.023085237366757754,
+      "z_margin": 0.029892244579782457,
+      "message": "left_rule IK adapter"
+    },
+    {
+      "task_id": "queue_right_001",
+      "selected_arm": "right",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.10032494181385498,
+      "xy_dist": 0.02436180286551195,
+      "z_margin": 0.029892244579782457,
+      "message": "right_rule_pick_place.run_trial"
+    },
+    {
+      "task_id": "queue_left_002",
+      "selected_arm": "left",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.024997076148178587,
+      "xy_dist": 0.023085237366757754,
+      "z_margin": 0.029892244579782457,
+      "message": "left_rule IK adapter"
+    },
+    {
+      "task_id": "queue_right_002",
+      "selected_arm": "right",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.10032494181385498,
+      "xy_dist": 0.02436180286551195,
+      "z_margin": 0.029892244579782457,
+      "message": "right_rule_pick_place.run_trial"
+    }
+  ]
+}

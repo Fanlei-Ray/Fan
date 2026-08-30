@@ -1,0 +1,494 @@
+{
+  "scene": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\v2\\demo_ycb_real_objects.xml",
+  "safe_finite_shuffle_layouts": 4,
+  "objects_per_layout": 4,
+  "total_cases": 16,
+  "strict_official_yolov8_seg": true,
+  "speed_scale": 0.4,
+  "results": [
+    {
+      "layout_index": 0,
+      "body_name": "ycb_bottle",
+      "class_name": "bottle",
+      "spawn_xyz_m": [
+        0.58,
+        0.05,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5800038450463698,
+        0.04995220139882717,
+        1.006
+      ],
+      "detection_xy_error_m": 4.795300465733211e-05,
+      "confidence": 0.47438958287239075,
+      "source": "yolov8-seg:yolov8n-seg.pt:bottle",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4470537000015611,
+      "task_id": "shuffle-L1-ycb_bottle",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.059229430723549026,
+      "xy_to_frame_m": 0.020519910892468386,
+      "z_margin_m": 0.02148413618248801,
+      "minimum_interarm_tcp_distance_m": 0.47253583506882546,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 0,
+      "body_name": "ycb_banana",
+      "class_name": "banana",
+      "spawn_xyz_m": [
+        0.49,
+        0.03,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.49000163892062437,
+        0.029996019450049195,
+        1.006
+      ],
+      "detection_xy_error_m": 4.304746069615253e-06,
+      "confidence": 0.4170409142971039,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.45409559999825433,
+      "task_id": "shuffle-L1-ycb_banana",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07393025517779672,
+      "xy_to_frame_m": 0.0013009374312981672,
+      "z_margin_m": 0.00965656035358009,
+      "minimum_interarm_tcp_distance_m": 0.4719980657693284,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 0,
+      "body_name": "ycb_apple",
+      "class_name": "apple",
+      "spawn_xyz_m": [
+        0.55,
+        0.0,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5500035117627242,
+        8.718773339567304e-07,
+        1.006
+      ],
+      "detection_xy_error_m": 3.6183763646641066e-06,
+      "confidence": 0.5479510426521301,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.46120349999546306,
+      "task_id": "shuffle-L1-ycb_apple",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.06863856248849132,
+      "xy_to_frame_m": 0.014391511214260721,
+      "z_margin_m": 0.009815876454547512,
+      "minimum_interarm_tcp_distance_m": 0.4734190038478329,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 0,
+      "body_name": "ycb_cup",
+      "class_name": "cup",
+      "spawn_xyz_m": [
+        0.45,
+        -0.09,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.4500040404670355,
+        -0.0900018452465535,
+        1.006
+      ],
+      "detection_xy_error_m": 4.44188121275223e-06,
+      "confidence": 0.20593206584453583,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.5368390999938129,
+      "task_id": "shuffle-L1-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.06558725520713615,
+      "xy_to_frame_m": 0.02675753680748778,
+      "z_margin_m": 0.009252784364395694,
+      "minimum_interarm_tcp_distance_m": 0.4720691865118401,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 1,
+      "body_name": "ycb_bottle",
+      "class_name": "bottle",
+      "spawn_xyz_m": [
+        0.585,
+        0.055,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5850026314782208,
+        0.05499623456568169,
+        1.006
+      ],
+      "detection_xy_error_m": 4.593819024788667e-06,
+      "confidence": 0.6325216889381409,
+      "source": "yolov8-seg:yolov8n-seg.pt:bottle",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4362275999956182,
+      "task_id": "shuffle-L2-ycb_bottle",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07179046062095962,
+      "xy_to_frame_m": 0.04031374468399775,
+      "z_margin_m": 0.02108323447013083,
+      "minimum_interarm_tcp_distance_m": 0.4736098402339277,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 1,
+      "body_name": "ycb_banana",
+      "class_name": "banana",
+      "spawn_xyz_m": [
+        0.49,
+        0.03,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.490003450717342,
+        0.030002148401352898,
+        1.006
+      ],
+      "detection_xy_error_m": 4.064858982518443e-06,
+      "confidence": 0.47716617584228516,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.42841979999502655,
+      "task_id": "shuffle-L2-ycb_banana",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07836693042744303,
+      "xy_to_frame_m": 0.006446301360720222,
+      "z_margin_m": 0.009656560353636934,
+      "minimum_interarm_tcp_distance_m": 0.4719990248637055,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 1,
+      "body_name": "ycb_apple",
+      "class_name": "apple",
+      "spawn_xyz_m": [
+        0.55,
+        0.0,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5500004857262032,
+        -4.954071426212757e-06,
+        1.006
+      ],
+      "detection_xy_error_m": 4.977826196287086e-06,
+      "confidence": 0.5880046486854553,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.44769860000087647,
+      "task_id": "shuffle-L2-ycb_apple",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.09968660662847739,
+      "xy_to_frame_m": 0.03094111672402143,
+      "z_margin_m": 0.028815876482330083,
+      "minimum_interarm_tcp_distance_m": 0.47329720877782444,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 1,
+      "body_name": "ycb_cup",
+      "class_name": "cup",
+      "spawn_xyz_m": [
+        0.445,
+        -0.095,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.4450046288119563,
+        -0.0950033621280635,
+        1.006
+      ],
+      "detection_xy_error_m": 5.7209968748475795e-06,
+      "confidence": 0.19134461879730225,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.48544679999758955,
+      "task_id": "shuffle-L2-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.06642359643744333,
+      "xy_to_frame_m": 0.022975847198395485,
+      "z_margin_m": 0.009846032896344115,
+      "minimum_interarm_tcp_distance_m": 0.4716769450935134,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 2,
+      "body_name": "ycb_bottle",
+      "class_name": "bottle",
+      "spawn_xyz_m": [
+        0.58,
+        0.055,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5800027578900856,
+        0.05500261691763274,
+        1.006
+      ],
+      "detection_xy_error_m": 3.801870016318725e-06,
+      "confidence": 0.44777509570121765,
+      "source": "yolov8-seg:yolov8n-seg.pt:bottle",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.46083960000396473,
+      "task_id": "shuffle-L3-ycb_bottle",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.06880616387341765,
+      "xy_to_frame_m": 0.02887439313133188,
+      "z_margin_m": 0.011968407425765992,
+      "minimum_interarm_tcp_distance_m": 0.4735099666010741,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 2,
+      "body_name": "ycb_banana",
+      "class_name": "banana",
+      "spawn_xyz_m": [
+        0.49,
+        0.03,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.48999720515378964,
+        0.02999523274186632,
+        1.006
+      ],
+      "detection_xy_error_m": 5.526112146225561e-06,
+      "confidence": 0.4477112591266632,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.42653509999945527,
+      "task_id": "shuffle-L3-ycb_banana",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07378567850724571,
+      "xy_to_frame_m": 0.0034594327881519514,
+      "z_margin_m": 0.0096565603535812,
+      "minimum_interarm_tcp_distance_m": 0.47198720627344354,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 2,
+      "body_name": "ycb_apple",
+      "class_name": "apple",
+      "spawn_xyz_m": [
+        0.552,
+        0.002,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5520018981420192,
+        0.0019982675773253297,
+        1.006
+      ],
+      "detection_xy_error_m": 2.569869928314804e-06,
+      "confidence": 0.5845189690589905,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.43973230000119656,
+      "task_id": "shuffle-L3-ycb_apple",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.1186090772947912,
+      "xy_to_frame_m": 0.0514859831701196,
+      "z_margin_m": 0.028815876481092628,
+      "minimum_interarm_tcp_distance_m": 0.4736849313454114,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 2,
+      "body_name": "ycb_cup",
+      "class_name": "cup",
+      "spawn_xyz_m": [
+        0.455,
+        -0.095,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.4549980133429822,
+        -0.0950000897913869,
+        1.006
+      ],
+      "detection_xy_error_m": 1.988685143426967e-06,
+      "confidence": 0.14269980788230896,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4953808999998728,
+      "task_id": "shuffle-L3-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.0670577241274346,
+      "xy_to_frame_m": 0.02425798167513763,
+      "z_margin_m": 0.009725277568987334,
+      "minimum_interarm_tcp_distance_m": 0.4719769708858487,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 3,
+      "body_name": "ycb_bottle",
+      "class_name": "bottle",
+      "spawn_xyz_m": [
+        0.585,
+        0.05,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5849984807174609,
+        0.049996875657955624,
+        1.006
+      ],
+      "detection_xy_error_m": 3.4741520755308538e-06,
+      "confidence": 0.5275242328643799,
+      "source": "yolov8-seg:yolov8n-seg.pt:bottle",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4646578999963822,
+      "task_id": "shuffle-L4-ycb_bottle",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.09474751345338883,
+      "xy_to_frame_m": 0.03540448615863662,
+      "z_margin_m": 0.02786282378313132,
+      "minimum_interarm_tcp_distance_m": 0.4726325371853386,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 3,
+      "body_name": "ycb_banana",
+      "class_name": "banana",
+      "spawn_xyz_m": [
+        0.487,
+        0.033,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.48699618462537736,
+        0.033002628273853314,
+        1.006
+      ],
+      "detection_xy_error_m": 4.633023522388665e-06,
+      "confidence": 0.42499494552612305,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4385214000067208,
+      "task_id": "shuffle-L4-ycb_banana",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.07145866933802791,
+      "xy_to_frame_m": 0.0020660095687614426,
+      "z_margin_m": 0.00965656035358009,
+      "minimum_interarm_tcp_distance_m": 0.4718930400253559,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 3,
+      "body_name": "ycb_apple",
+      "class_name": "apple",
+      "spawn_xyz_m": [
+        0.547,
+        0.003,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.5469953729427931,
+        0.0029987379240361254,
+        1.006
+      ],
+      "detection_xy_error_m": 4.796091547801375e-06,
+      "confidence": 0.6617311835289001,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.44845429999986663,
+      "task_id": "shuffle-L4-ycb_apple",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.1140051628570824,
+      "xy_to_frame_m": 0.023553928583614145,
+      "z_margin_m": 0.0478158764824721,
+      "minimum_interarm_tcp_distance_m": 0.47361414268488183,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    },
+    {
+      "layout_index": 3,
+      "body_name": "ycb_cup",
+      "class_name": "cup",
+      "spawn_xyz_m": [
+        0.44,
+        -0.09,
+        1.006
+      ],
+      "detected": true,
+      "detected_xyz_m": [
+        0.4400007507137036,
+        -0.08999625900496752,
+        1.006
+      ],
+      "detection_xy_error_m": 3.815575303641861e-06,
+      "confidence": 0.10463270545005798,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "final_state": "SUCCEEDED",
+      "wall_time_s": 0.4995531000022311,
+      "task_id": "shuffle-L4-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.06701713301463563,
+      "xy_to_frame_m": 0.025109420092924505,
+      "z_margin_m": 0.010354589994364671,
+      "minimum_interarm_tcp_distance_m": 0.4715763100978856,
+      "park_interarm_tcp_distance_m": 0.5632868521161603,
+      "final_dangerous_collision_count": 0
+    }
+  ],
+  "detected_count": 16,
+  "pick_success_count": 16,
+  "place_success_count": 16,
+  "dangerous_collision_count": 0
+}

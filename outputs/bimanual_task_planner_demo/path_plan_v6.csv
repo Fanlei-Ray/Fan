@@ -1,0 +1,33 @@
+timestamp,task_id,waypoint_id,arm,name,target_x,target_y,target_z,motion_type,safety_role,expected_state,safe,message
+2026-06-25 17:16:51,queue_left_001,1,left,APPROACH_HIGH,0.516,0.0,1.23,cartesian_waypoint,keep above object,approach,True,ok
+2026-06-25 17:16:51,queue_left_001,2,left,PREGRASP,0.511,0.0,1.1500000000000001,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-06-25 17:16:51,queue_left_001,3,left,GRASP,0.506,0.0,1.0450000000000002,cartesian_waypoint,contact zone,grasp,True,ok
+2026-06-25 17:16:51,queue_left_001,4,left,LIFT,0.506,0.0,1.165,vertical_lift,clear table/object,lift,True,ok
+2026-06-25 17:16:51,queue_left_001,5,left,TRANSFER_HIGH,0.493,0.075,1.27,transfer,avoid table and inactive arm,transfer,True,ok
+2026-06-25 17:16:51,queue_left_001,6,left,PREPLACE,0.47,0.15,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-06-25 17:16:51,queue_left_001,7,left,PLACE,0.47,0.15,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-06-25 17:16:51,queue_left_001,8,left,RETREAT,0.47,0.15,1.205,vertical_retreat,leave target safely,retreat,True,ok
+2026-06-25 17:18:34,queue_right_001,1,right,APPROACH_HIGH,0.516,0.05,1.23,cartesian_waypoint,keep above object,approach,True,ok
+2026-06-25 17:18:34,queue_right_001,2,right,PREGRASP,0.51,0.030000000000000002,1.19,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-06-25 17:18:34,queue_right_001,3,right,GRASP,0.51,0.030000000000000002,1.105,cartesian_waypoint,contact zone,grasp,True,ok
+2026-06-25 17:18:34,queue_right_001,4,right,LIFT,0.51,0.030000000000000002,1.225,vertical_lift,clear table/object,lift,True,ok
+2026-06-25 17:18:34,queue_right_001,5,right,TRANSFER_HIGH,0.493,0.1,1.27,transfer,avoid table and inactive arm,transfer,True,ok
+2026-06-25 17:18:34,queue_right_001,6,right,PREPLACE,0.47,0.15,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-06-25 17:18:34,queue_right_001,7,right,PLACE,0.47,0.15,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-06-25 17:18:34,queue_right_001,8,right,RETREAT,0.47,0.15,1.205,vertical_retreat,leave target safely,retreat,True,ok
+2026-06-25 17:20:05,queue_left_002,1,left,APPROACH_HIGH,0.516,0.0,1.23,cartesian_waypoint,keep above object,approach,True,ok
+2026-06-25 17:20:05,queue_left_002,2,left,PREGRASP,0.511,0.0,1.1500000000000001,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-06-25 17:20:05,queue_left_002,3,left,GRASP,0.506,0.0,1.0450000000000002,cartesian_waypoint,contact zone,grasp,True,ok
+2026-06-25 17:20:05,queue_left_002,4,left,LIFT,0.506,0.0,1.165,vertical_lift,clear table/object,lift,True,ok
+2026-06-25 17:20:05,queue_left_002,5,left,TRANSFER_HIGH,0.493,0.075,1.27,transfer,avoid table and inactive arm,transfer,True,ok
+2026-06-25 17:20:05,queue_left_002,6,left,PREPLACE,0.47,0.15,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-06-25 17:20:05,queue_left_002,7,left,PLACE,0.47,0.15,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-06-25 17:20:05,queue_left_002,8,left,RETREAT,0.47,0.15,1.205,vertical_retreat,leave target safely,retreat,True,ok
+2026-06-25 17:21:46,queue_right_002,1,right,APPROACH_HIGH,0.516,0.05,1.23,cartesian_waypoint,keep above object,approach,True,ok
+2026-06-25 17:21:46,queue_right_002,2,right,PREGRASP,0.51,0.030000000000000002,1.19,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-06-25 17:21:46,queue_right_002,3,right,GRASP,0.51,0.030000000000000002,1.105,cartesian_waypoint,contact zone,grasp,True,ok
+2026-06-25 17:21:46,queue_right_002,4,right,LIFT,0.51,0.030000000000000002,1.225,vertical_lift,clear table/object,lift,True,ok
+2026-06-25 17:21:46,queue_right_002,5,right,TRANSFER_HIGH,0.493,0.1,1.27,transfer,avoid table and inactive arm,transfer,True,ok
+2026-06-25 17:21:46,queue_right_002,6,right,PREPLACE,0.47,0.15,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-06-25 17:21:46,queue_right_002,7,right,PLACE,0.47,0.15,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-06-25 17:21:46,queue_right_002,8,right,RETREAT,0.47,0.15,1.205,vertical_retreat,leave target safely,retreat,True,ok

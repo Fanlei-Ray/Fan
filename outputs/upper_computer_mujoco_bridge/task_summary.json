@@ -1,0 +1,22 @@
+{
+  "demo": "openarm_bimanual_task_planner_demo_v6_path_planning",
+  "total_tasks": 1,
+  "success_count": 1,
+  "selector_rule": "right if cube_y >= -0.100, else left",
+  "log_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\upper_computer_mujoco_bridge\\task_log.csv",
+  "plan_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\upper_computer_mujoco_bridge\\execution_plan.csv",
+  "path_plan_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\upper_computer_mujoco_bridge\\path_plan.csv",
+  "collision_log_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\upper_computer_mujoco_bridge\\collision_log.csv",
+  "results": [
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "selected_arm": "right",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.06642773010717429,
+      "xy_dist": 0.02286293099804027,
+      "z_margin": 0.009846723717389816,
+      "message": "right_rule_pick_place.run_trial"
+    }
+  ]
+}

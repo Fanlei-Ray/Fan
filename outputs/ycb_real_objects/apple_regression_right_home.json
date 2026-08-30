@@ -1,0 +1,78 @@
+{
+  "scene": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\v2\\demo_ycb_real_objects.xml",
+  "strict_official_yolov8_seg": true,
+  "rgb_fallback": false,
+  "direct_scatter_execution": true,
+  "speed_scale": 1.0,
+  "results": [
+    {
+      "object_id": "sim-ycb_apple",
+      "class_name": "apple",
+      "confidence": 0.1398562490940094,
+      "source": "yolov8-seg:yolov8n-seg.pt:apple",
+      "image_angle_rad": 2.455069325638991,
+      "detected_xyz_m": [
+        0.5562071977879927,
+        -0.00881284587115172,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.5499999999999989,
+        -2.3291614855537223e-15,
+        1.0049931689659986
+      ],
+      "detection_xy_error_m": 0.010779404284463452,
+      "no_loading_station_teleport": true,
+      "speed_scale": 1.0,
+      "wall_time_s": 0.9597589999975753,
+      "final_state": "FAILED",
+      "xy_to_frame_m": 0.2031636027104428,
+      "z_margin_m": -0.00013435497777769534,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_apple",
+      "pick_success": false,
+      "place_success": false,
+      "lift_delta_m": 0.0,
+      "minimum_interarm_tcp_distance_m": 0.5127876177553548,
+      "park_interarm_tcp_distance_m": 0.5632096197392725,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 苹果"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 苹果；检测来源=yolov8-seg:yolov8n-seg.pt:apple；视觉直接坐标=(0.556,-0.009,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 苹果 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_apple",
+          "state": "FAILED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": "PICK_PLACE_FAILED",
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    }
+  ],
+  "detected_count": 1,
+  "pick_success_count": 0,
+  "place_success_count": 0
+}

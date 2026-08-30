@@ -1,0 +1,73 @@
+{
+  "task_id": "viewer-smoke-1788011696979155700",
+  "requested_class": "apple",
+  "selected_detection": {
+    "id": "sim-ycb_apple",
+    "class_name": "apple",
+    "confidence": 0.5470437407493591,
+    "position_m": [
+      0.5500035117627242,
+      8.718773339567304e-07,
+      1.006
+    ],
+    "source": "yolov8-seg:yolov8n-seg.pt:apple"
+  },
+  "statuses": [
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "PLANNING",
+      "progress": 0.08,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "正在按视觉坐标直接抓取 YCB 苹果",
+      "stamp_ns": 1788011698543571700
+    },
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "PLANNING",
+      "progress": 0.15,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "已锁定 YCB 苹果；检测来源=yolov8-seg:yolov8n-seg.pt:apple；视觉直接坐标=(0.550,0.000,1.006)",
+      "stamp_ns": 1788011699228320300
+    },
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "EXECUTING",
+      "progress": 0.45,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "右臂独占执行：抓取 YCB 苹果 并放入黑色框架",
+      "stamp_ns": 1788011699514663600
+    },
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "EXECUTING",
+      "progress": 0.5025000000000001,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "实时执行中（1.5s），画面与物理状态持续更新",
+      "stamp_ns": 1788011701013040200
+    },
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "EXECUTING",
+      "progress": 0.5604949999999735,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "实时执行中（3.2s），画面与物理状态持续更新",
+      "stamp_ns": 1788011702661288300
+    },
+    {
+      "task_id": "viewer-smoke-1788011696979155700",
+      "state": "SUCCEEDED",
+      "progress": 1.0,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "right_rule_pick_place.run_trial",
+      "stamp_ns": 1788011703625112000
+    }
+  ],
+  "final_state": "SUCCEEDED",
+  "viewer_process_survived_through_terminal_status": true
+}

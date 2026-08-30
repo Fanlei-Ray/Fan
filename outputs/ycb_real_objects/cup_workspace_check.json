@@ -1,0 +1,78 @@
+{
+  "scene": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\v2\\demo_ycb_real_objects.xml",
+  "strict_official_yolov8_seg": true,
+  "rgb_fallback": false,
+  "direct_scatter_execution": true,
+  "speed_scale": 0.6,
+  "results": [
+    {
+      "object_id": "sim-ycb_cup",
+      "class_name": "cup",
+      "confidence": 0.20593206584453583,
+      "source": "yolov8-seg:yolov8n-seg.pt:cup",
+      "image_angle_rad": 3.0885899511974904,
+      "detected_xyz_m": [
+        0.4500040404670355,
+        -0.0900018452465535,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.4500000075887084,
+        -0.09000000587791562,
+        1.0049944169367966
+      ],
+      "detection_xy_error_m": 4.432537037335485e-06,
+      "no_loading_station_teleport": true,
+      "speed_scale": 0.6,
+      "wall_time_s": 0.6820526000010432,
+      "final_state": "SUCCEEDED",
+      "xy_to_frame_m": 0.023745032495269647,
+      "z_margin_m": 0.009847224344520678,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_cup",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta_m": 0.0740762918561153,
+      "minimum_interarm_tcp_distance_m": 0.46995040426472834,
+      "park_interarm_tcp_distance_m": 0.5632139757796374,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 杯子"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 杯子；检测来源=yolov8-seg:yolov8n-seg.pt:cup；视觉直接坐标=(0.450,-0.090,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 杯子 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_cup",
+          "state": "SUCCEEDED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    }
+  ],
+  "detected_count": 1,
+  "pick_success_count": 1,
+  "place_success_count": 1
+}

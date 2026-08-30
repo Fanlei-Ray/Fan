@@ -1,0 +1,54 @@
+[
+  {
+    "object_id": "sim-orange_cube",
+    "class_name": "orange_cube",
+    "source": "rgb_fallback:orange",
+    "final_state": "SUCCEEDED",
+    "selected_arm": "right",
+    "message": "right_rule_pick_place.run_trial",
+    "xy_to_frame_m": 0.03233534389215752,
+    "z_margin_m": 0.029892244579782457,
+    "detector_status": "YOLOv8(yolov8n.pt) + RGB fallback",
+    "task_id": "regression-sim-orange_cube",
+    "pick_success": true,
+    "place_success": true,
+    "lift_delta_m": 0.09558041244313764,
+    "minimum_interarm_tcp_distance_m": 0.30861406003408476,
+    "park_interarm_tcp_distance_m": 0.5635999004539133,
+    "final_dangerous_collision_count": 0,
+    "statuses": [
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "PLANNING",
+        "progress": 0.08,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "正在把 橙色方块 送入已验证安全取件位"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "PLANNING",
+        "progress": 0.15,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "已锁定 橙色方块；检测来源=rgb_fallback:orange；安全取件位=(0.516,0.050,1.050)"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "EXECUTING",
+        "progress": 0.45,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "右臂独占执行：抓取 橙色方块 并放入黑色框架"
+      },
+      {
+        "task_id": "regression-sim-orange_cube",
+        "state": "SUCCEEDED",
+        "progress": 1.0,
+        "selected_arm": "right",
+        "error_code": null,
+        "message": "right_rule_pick_place.run_trial"
+      }
+    ]
+  }
+]

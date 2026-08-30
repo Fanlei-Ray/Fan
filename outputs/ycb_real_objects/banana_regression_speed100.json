@@ -1,0 +1,78 @@
+{
+  "scene": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\v2\\demo_ycb_real_objects.xml",
+  "strict_official_yolov8_seg": true,
+  "rgb_fallback": false,
+  "direct_scatter_execution": true,
+  "speed_scale": 1.0,
+  "results": [
+    {
+      "object_id": "sim-ycb_banana",
+      "class_name": "banana",
+      "confidence": 0.36775362491607666,
+      "source": "yolov8-seg:yolov8n-seg.pt:banana",
+      "image_angle_rad": 2.829132867258546,
+      "detected_xyz_m": [
+        0.4931067496331944,
+        0.022336864252939737,
+        1.006
+      ],
+      "actual_initial_xyz_m": [
+        0.49027294451531256,
+        0.02859970019042295,
+        1.0049931629796414
+      ],
+      "detection_xy_error_m": 0.00687412288411871,
+      "no_loading_station_teleport": true,
+      "speed_scale": 1.0,
+      "wall_time_s": 0.993961300002411,
+      "final_state": "FAILED",
+      "xy_to_frame_m": 0.16370191164214484,
+      "z_margin_m": -0.0002483294212614062,
+      "detector_status": "YOLOv8 strict (yolov8n-seg.pt; no RGB fallback)",
+      "task_id": "ycb-regression-ycb_banana",
+      "pick_success": false,
+      "place_success": false,
+      "lift_delta_m": 0.0,
+      "minimum_interarm_tcp_distance_m": 0.5055839429141604,
+      "park_interarm_tcp_distance_m": 0.63253509008501,
+      "final_dangerous_collision_count": 0,
+      "statuses": [
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "PLANNING",
+          "progress": 0.08,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "正在按视觉坐标直接抓取 YCB 香蕉"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "PLANNING",
+          "progress": 0.15,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "已锁定 YCB 香蕉；检测来源=yolov8-seg:yolov8n-seg.pt:banana；视觉直接坐标=(0.493,0.022,1.006)"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "EXECUTING",
+          "progress": 0.45,
+          "selected_arm": "right",
+          "error_code": null,
+          "message": "右臂独占执行：抓取 YCB 香蕉 并放入黑色框架"
+        },
+        {
+          "task_id": "ycb-regression-ycb_banana",
+          "state": "FAILED",
+          "progress": 1.0,
+          "selected_arm": "right",
+          "error_code": "PICK_PLACE_FAILED",
+          "message": "right_rule_pick_place.run_trial"
+        }
+      ]
+    }
+  ],
+  "detected_count": 1,
+  "pick_success_count": 0,
+  "place_success_count": 0
+}

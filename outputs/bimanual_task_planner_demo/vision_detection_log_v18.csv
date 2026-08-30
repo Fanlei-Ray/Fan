@@ -1,0 +1,1 @@
+timestamp,task_id,detected,source,pixel_u,pixel_v,bbox_x0,bbox_y0,bbox_x1,bbox_y1,area,raw_x,raw_y,raw_z,calib_dx,calib_dy,calib_dz,stable_x,stable_y,stable_z,planner_x,planner_y,planner_z,debug_image_path,message

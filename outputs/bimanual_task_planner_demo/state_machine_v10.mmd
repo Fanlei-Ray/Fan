@@ -1,0 +1,18 @@
+stateDiagram-v2
+    [*] --> INIT
+    INIT --> PERCEIVE
+    PERCEIVE --> SELECT_ARM
+    SELECT_ARM --> SAFETY_CHECK
+    SAFETY_CHECK --> PLAN_PATH: workspace_ok
+    PLAN_PATH --> PARK_INACTIVE_ARM: path_safe
+    SAFETY_CHECK --> FAILED: unsafe
+    PARK_INACTIVE_ARM --> EXECUTE_PICK_PLACE
+    EXECUTE_PICK_PLACE --> VERIFY: success
+    EXECUTE_PICK_PLACE --> RETRY_PICK_PLACE: failure and retry left
+    RETRY_PICK_PLACE --> EXECUTE_PICK_PLACE
+    EXECUTE_PICK_PLACE --> REPLAN_ARM: retry failed and fallback enabled
+    REPLAN_ARM --> SAFETY_CHECK
+    VERIFY --> DONE: pick_success && place_success
+    VERIFY --> FAILED: otherwise
+    DONE --> [*]
+    FAILED --> [*]

@@ -1,0 +1,9 @@
+timestamp,task_id,waypoint_id,arm,name,target_x,target_y,target_z,motion_type,safety_role,expected_state,safe,message
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,1,right,APPROACH_HIGH,0.4400007507137036,-0.08999625900496752,1.186,cartesian_waypoint,keep above object,approach,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,2,right,PREGRASP,0.4340007507137036,-0.10999625900496753,1.146,cartesian_waypoint,slow approach,pregrasp,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,3,right,GRASP,0.4340007507137036,-0.10999625900496753,1.061,cartesian_waypoint,contact zone,grasp,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,4,right,LIFT,0.4340007507137036,-0.10999625900496753,1.181,vertical_lift,clear table/object,lift,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,5,right,TRANSFER_HIGH,0.4550003753568518,0.03500187049751624,1.226,transfer,avoid table and inactive arm,transfer,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,6,right,PREPLACE,0.47,0.16,1.145,cartesian_waypoint,approach target from above,preplace,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,7,right,PLACE,0.47,0.16,1.085,cartesian_waypoint,release zone,place,True,ok
+2026-08-30 00:58:22,shuffle-L4-ycb_cup,8,right,RETREAT,0.47,0.16,1.205,vertical_retreat,leave target safely,retreat,True,ok

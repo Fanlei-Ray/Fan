@@ -1,0 +1,2 @@
+case,arm,cube_x,cube_y,cube_z,pick_success,place_success,lift_delta,final_lift_delta,xy_dist,z_margin,cube_final_x,cube_final_y,cube_final_z,frame_final_x,frame_final_y,frame_final_z
+right_fixed_success,right,0.516,0.05,1.05,False,False,0.0,0.0,0.1100727032467592,0.019993168965998454,0.516000000000549,0.050000000000006976,1.0249931689659983,0.47,0.15,1.005

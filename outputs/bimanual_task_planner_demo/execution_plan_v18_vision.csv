@@ -1,0 +1,2 @@
+order,task_id,object_name,target_name,cube_x,cube_y,cube_z,planned_arm,inactive_arm,planned_states,description
+1,bridge-proven-v18-probe,orange_cube,black_frame,0.516,0.05,1.05,right,left,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,upper computer command | reuse V18.3 camera + bimanual planner

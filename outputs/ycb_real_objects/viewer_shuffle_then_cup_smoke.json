@@ -1,0 +1,102 @@
+{
+  "task_id": "viewer-smoke-1788022283481565900",
+  "requested_class": "cup",
+  "selected_detection": {
+    "id": "sim-ycb_cup",
+    "class_name": "cup",
+    "confidence": 0.09550878405570984,
+    "position_m": [
+      0.4399984839835491,
+      -0.08996587350692768,
+      1.006
+    ],
+    "source": "yolov8-seg:yolov8n-seg.pt:cup"
+  },
+  "statuses": [
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "PLANNING",
+      "progress": 0.08,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "正在按视觉坐标直接抓取 YCB 杯子",
+      "stamp_ns": 1788022287344937000
+    },
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "PLANNING",
+      "progress": 0.15,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "已锁定 YCB 杯子；检测来源=yolov8-seg:yolov8n-seg.pt:cup；视觉直接坐标=(0.440,-0.090,1.006)",
+      "stamp_ns": 1788022287961969500
+    },
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "EXECUTING",
+      "progress": 0.45,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "右臂独占执行：抓取 YCB 杯子 并放入黑色框架",
+      "stamp_ns": 1788022288219499200
+    },
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "EXECUTING",
+      "progress": 0.5063500000000204,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "实时执行中（1.6s），画面与物理状态持续更新",
+      "stamp_ns": 1788022289829534500
+    },
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "EXECUTING",
+      "progress": 0.5665149999999267,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "实时执行中（3.3s），画面与物理状态持续更新",
+      "stamp_ns": 1788022291546525000
+    },
+    {
+      "task_id": "viewer-smoke-1788022283481565900",
+      "state": "SUCCEEDED",
+      "progress": 1.0,
+      "selected_arm": "right",
+      "error_code": null,
+      "message": "right_rule_pick_place.run_trial",
+      "stamp_ns": 1788022292408373400
+    }
+  ],
+  "shuffle_statuses": [
+    {
+      "task_id": "shuffle-smoke-1788022285631059300",
+      "state": "PLANNING",
+      "progress": 0.2,
+      "selected_arm": null,
+      "error_code": null,
+      "message": "正在选择下一个已验证安全布局",
+      "stamp_ns": 1788022285631059300
+    },
+    {
+      "task_id": "shuffle-smoke-1788022285631059300",
+      "state": "EXECUTING",
+      "progress": 0.5,
+      "selected_arm": null,
+      "error_code": null,
+      "message": "正在回收机械臂并重新打乱四个 YCB 物体",
+      "stamp_ns": 1788022285631059300
+    },
+    {
+      "task_id": "shuffle-smoke-1788022285631059300",
+      "state": "SUCCEEDED",
+      "progress": 1.0,
+      "selected_arm": null,
+      "error_code": null,
+      "message": "随机布局 4 已完成，正在重新运行 YOLO",
+      "stamp_ns": 1788022286519276600
+    }
+  ],
+  "final_state": "SUCCEEDED",
+  "viewer_process_survived_through_terminal_status": true
+}

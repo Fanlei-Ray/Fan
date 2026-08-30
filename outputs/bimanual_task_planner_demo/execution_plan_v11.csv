@@ -1,0 +1,2 @@
+order,task_id,object_name,target_name,cube_x,cube_y,cube_z,planned_arm,inactive_arm,planned_states,description
+1,shuffle-L4-ycb_cup,ycb_cup,black_frame,0.4400007507137036,-0.08999625900496752,1.006,right,left,INIT>PERCEIVE>SELECT_ARM>SAFETY_CHECK>PLAN_PATH>PARK_INACTIVE_ARM>EXECUTE_PICK_PLACE>VERIFY>DONE,upper computer selected cup | source=yolov8-seg:yolov8n-seg.pt:cup | right-arm exclusive zone

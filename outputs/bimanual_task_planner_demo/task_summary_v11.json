@@ -1,0 +1,22 @@
+{
+  "demo": "openarm_bimanual_task_planner_demo_v6_path_planning",
+  "total_tasks": 1,
+  "success_count": 1,
+  "selector_rule": "right if cube_y >= -0.100, else left",
+  "log_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\task_log_v11.csv",
+  "plan_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\execution_plan_v11.csv",
+  "path_plan_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\path_plan_v11.csv",
+  "collision_log_path": "E:\\FL_Personal\\openarm_mujoco-master\\openarm_mujoco-master\\outputs\\bimanual_task_planner_demo\\collision_log_v11.csv",
+  "results": [
+    {
+      "task_id": "shuffle-L4-ycb_cup",
+      "selected_arm": "right",
+      "pick_success": true,
+      "place_success": true,
+      "lift_delta": 0.06701713301463563,
+      "xy_dist": 0.025109420092924505,
+      "z_margin": 0.010354589994364671,
+      "message": "right_rule_pick_place.run_trial"
+    }
+  ]
+}
